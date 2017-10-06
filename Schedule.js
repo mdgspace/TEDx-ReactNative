@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, Text, ListView, ActivityIndicator, StyleSheet } from "react-native";
+import { View, Text, ListView, ActivityIndicator, Image, StyleSheet } from "react-native";
 import { List, Card, ListItem, SearchBar } from "react-native-elements";
 import Row from './scheduleRow.js'
 
@@ -52,7 +52,12 @@ class Schedule extends Component {
 
       return (
       <View style={styles.container}>
+          <View style = {styles.topBar}/>
+          <View style = {styles.labelBar}>
+            <Image source={require('./label.png')} style={styles.labelImage}/>
+          </View>
           <ListView 
+            style={{marginTop:25}}
             dataSource = {this.state.dataSource}
             renderRow = {(item) => <Row {...item}/>}
           />
@@ -65,7 +70,20 @@ const styles = StyleSheet.create(
   {
     container:
     {flex:1,
-     marginTop: 30,
+    },
+
+    topBar:
+    { height: 25,
+      backgroundColor: '#000000',
+    },
+    labelBar:
+    {height: 47,
+     justifyContent: 'center',
+    },
+    labelImage:
+    { width: 99,
+      height: 18,
+      marginLeft:16,
     },
 
   });

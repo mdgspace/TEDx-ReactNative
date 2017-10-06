@@ -77,7 +77,8 @@ const styles = StyleSheet.create(
   },
 
   additionalDetails:
-  {fontSize: 11,
+  {
+   fontSize: 11,
    color : 'rgba(0, 0, 0, 0.58)', 
   },
 
