@@ -7,8 +7,10 @@ import BottomNav from './components/bottomnav.js'
 export default class App extends React.Component {
   render() {
     return (
-      <Speakers/>
-      <BottomNav/>
+      <View style={styles.container}>
+        <Speakers />
+        <BottomNav />
+      </View>
     );
   }
 }
@@ -18,6 +20,5 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
   },
 });
