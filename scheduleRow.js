@@ -5,10 +5,10 @@ const styles = StyleSheet.create(
   {
   container: {
     flex: 1,
-    padding: 12,
-    marginBottom: 10,
-    marginLeft: 10,
-    marginRight: 10,
+    padding: 16,
+    marginBottom: 16,
+    marginLeft: 16,
+    marginRight: 16,
     backgroundColor: '#FFEBEE',
     flexDirection: 'row',
   },
@@ -45,13 +45,13 @@ const styles = StyleSheet.create(
 
   durationPlaceholder:
   { 
-    width: 20,
-    height: 20,
+    width: 7,
+    height: 7,
   },
 
   durationText:
   {
-   fontSize: 10,
+   fontSize: 9,
    color: '#929292',
   },
 
@@ -96,7 +96,10 @@ const Row = (props) => (
   <View style={styles.container}>
     <View style ={styles.firstContainer}>
       <Text style={styles.time}>10:00AM</Text>
-      <Text style={styles.durationText}>45min</Text>
+      <View style={{flexDirection: 'row'}}>
+        <Image source = {require('./durationplaceholder.png')} style={styles.durationPlaceholder}/> 
+        <Text style={styles.durationText}>45min</Text>
+      </View>
     </View>
   
     <View style ={styles.secondContainer}>

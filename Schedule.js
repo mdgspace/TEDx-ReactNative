@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View, Text, ListView, ActivityIndicator, Image, StyleSheet } from "react-native";
 import { List, Card, ListItem, SearchBar } from "react-native-elements";
 import Row from './scheduleRow.js'
+import Break from './break.js'
 
 var ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });   
 
@@ -44,7 +45,7 @@ class Schedule extends Component {
   render() {
     if (this.state.loading) {
       return (
-        <View style={{ flex: 1, paddingTop: 20 }}>
+        <View style={{ flex: 1, marginTop: 25}}>
           <ActivityIndicator/>
         </View>
       );
@@ -59,7 +60,7 @@ class Schedule extends Component {
           <ListView 
             style={{marginTop:25}}
             dataSource = {this.state.dataSource}
-            renderRow = {(item) => <Row {...item}/>}
+            renderRow = {(item) => <Break {...item}/>}
           />
       </View>    
       );
