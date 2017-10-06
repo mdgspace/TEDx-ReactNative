@@ -1,107 +1,73 @@
 import React, { Component } from "react";
-import { View, Text, FlatList, ActivityIndicator, StyleSheet } from "react-native";
+import { View, Text, ListView, ActivityIndicator, StyleSheet } from "react-native";
 import { List, Card, ListItem, SearchBar } from "react-native-elements";
+import Row from './scheduleRow.js'
+
+var ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });   
 
 class Schedule extends Component {
+  
   constructor(props) {
     super(props);
-
     this.state = {
-      loading: false,
-      data: [],
-      page: 1,
-      seed: 1,
+      dataSource: ds.cloneWithRows([]),
+      loading: false,     
       error: null,
-      refreshing: false
     };
   }
 
   componentDidMount() {
-    this.makeRemoteRequest();
+      this.makeRemoteRequest();
   }
 
   
 
   makeRemoteRequest = () => {
-    const { page, seed } = this.state;
-    const url = `https://randomuser.me/api/?seed=${seed}&page=${page}&results=20`;
+    //api url needs to be changed
+    const url = 'https://tedxiitr.herokuapp.com/api/events/?format=json';
     this.setState({ loading: true });
 
     fetch(url)
       .then(res => res.json())
-      .then(res => {
-        this.setState({
-          data: page === 1 ? res.results : [...this.state.data, ...res.results],
-          error: res.error || null,
+      .then(responseJson => {
+         this.setState({
           loading: false,
-          refreshing: false
+          dataSource: ds.cloneWithRows(responseJson),
         });
       })
       .catch(error => {
-        this.setState({ error, loading: false });
+        console.error(error);
       });
-  };
-
-  handleRefresh = () => {
-    this.setState(
-      {
-        page: 1,
-        seed: this.state.seed + 1,
-        refreshing: true
-      },
-      () => {
-        this.makeRemoteRequest();
-      }
-    );
-  };
-
-  handleLoadMore = () => {
-    this.setState(
-      {
-        page: this.state.page + 1
-      },
-      () => {
-        this.makeRemoteRequest();
-      }
-    );
   };
 
  
   render() {
-    return (
-    <View style = {styles.MainContainer}>
-      <List containerStyle={{ borderTopWidth: 0, borderBottomWidth: 0 }}>
-        <FlatList
-          data={this.state.data}
-          renderItem={({ item }) => (
-            <Card
-              roundAvatar
-              title ={`${item.name.first} ${item.name.last}`}
-              subtitle={item.email}
-              avatar={{ uri: item.picture.thumbnail }}
-              containerStyle={{ borderRadius: 1 , marginBottom: 1, backgroundColor: '#ffffff' }}
-          />
+    if (this.state.loading) {
+      return (
+        <View style={{ flex: 1, paddingTop: 20 }}>
+          <ActivityIndicator/>
+        </View>
+      );
+    }
 
-          )}
-          keyExtractor={item => item.email}
-          onRefresh={this.handleRefresh}
-          refreshing={this.state.refreshing}
-          onEndReached={this.handleLoadMore}
-          onEndReachedThreshold={50}
-        />
-      </List>
-    </View>
-       );
+      return (
+      <View style={styles.container}>
+          <ListView 
+            dataSource = {this.state.dataSource}
+            renderRow = {(item) => <Row {...item}/>}
+          />
+      </View>    
+      );
   }
-}
+};
 
 const styles = StyleSheet.create(
   {
-	MainContainer:
-	{
-		flex: 1,
-		backgroundColor: 'rgba(237, 23, 23, 0.5)',
-		opacity: 0.5,
-	}
+    container:
+    {flex:1,
+     marginTop: 30,
+    },
+
   });
+
 export default Schedule;
