@@ -11,7 +11,7 @@ export default class Speakers extends React.Component {
     }
 
     componentDidMount(){   
-    return fetch('http://tedxiitr.herokuapp.com/speakers/?format=json')
+    return fetch('http://tedxiitr.herokuapp.com/api/speakers/?format=json')
     .then((response) => response.json())
     .then((responseJson) => {
         let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});        
