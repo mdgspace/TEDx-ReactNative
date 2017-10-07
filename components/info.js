@@ -51,7 +51,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-around',
         backgroundColor: '#fff',
-        elevation: 5,
+        borderRadius: 2,
+        borderWidth: 1.33,
+        borderColor: '#e5e5e5',
         margin: 20
     },
     row: {
