@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { View, Text, ListView, ActivityIndicator, Image, StyleSheet } from "react-native";
 import { List, Card, ListItem, SearchBar } from "react-native-elements";
+//import {BoxShadow} from 'react-native-shadow'
 import Row from './scheduleRow.js'
 import Break from './break.js'
+
 
 var ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });   
 
@@ -80,6 +82,9 @@ const styles = StyleSheet.create(
     labelBar:
     {height: 47,
      justifyContent: 'center',
+     backgroundColor: '#FFFFFF',
+     borderBottomColor: '#e0e0e0',
+     borderBottomWidth: 1, 
     },
     labelImage:
     { width: 100,

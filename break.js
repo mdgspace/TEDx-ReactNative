@@ -10,8 +10,10 @@ container:
     marginLeft: 16,
     marginRight: 16,
 	flexDirection: 'row', 
-	backgroundColor: '#FFEBEE',
+	backgroundColor: '#FFFFFF',
 	borderRadius: 4,
+	borderWidth: 1.33,
+	borderColor: '#e5e5e5',
 	alignItems: 'center', 
 },
 container1:

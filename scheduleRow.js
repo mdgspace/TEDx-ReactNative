@@ -9,13 +9,10 @@ const styles = StyleSheet.create(
     marginBottom: 16,
     marginLeft: 16,
     marginRight: 16,
-    backgroundColor: '#FFEBEE',
+    backgroundColor: '#FFFFFF',
     borderRadius: 2,
-    shadowColor: 'rgba(0, 0, 0, 0.1)',
-    shadowOffset: {
-      width: 0,
-      height: 1.33
-    },
+    borderWidth: 1.33,
+    borderColor: '#e5e5e5',
     flexDirection: 'row',
   },
 
@@ -74,6 +71,7 @@ const styles = StyleSheet.create(
   topic:
   {fontSize: 12,
    color: '#0e0e0e',
+   fontWeight: 'bold', 
   },
 
   speakerName:
