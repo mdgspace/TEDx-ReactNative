@@ -17,27 +17,15 @@ export default class App extends React.Component {
     var Element;
     if (this.state.currentTab == 0){
       Element = Speakers;
-      this.setState({
-        currentTab : 0
-      })
     }
     else if(this.state.currentTab == 1){
       Element = Schedule;
-      this.setState({
-        currentTab : 1
-      })
     }
     else if(this.state.currentTab == 2){
       Element = Speakers;
-      this.setState({
-        currentTab : 2
-      })
     }
     else if(this.state.currentTab == 3){
       Element = InfoScreen;
-      this.setState({
-        currentTab : 3
-      })
     }
     return (
 
