@@ -7,7 +7,10 @@ const styles = StyleSheet.create({
     padding: 12,
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 20,
+    margin: 10,
+    elevation: 1,
+    backgroundColor: '#fff'
+
   },
   innerContainer1: {
     flexDirection: 'row',
@@ -17,7 +20,7 @@ const styles = StyleSheet.create({
   },
   name: {
     marginLeft: 12,
-    fontSize: 24,
+    fontSize: 20,
   },
   designation: {
     marginLeft: 12,
@@ -54,6 +57,7 @@ const Row = (data) => (
         <TouchableHighlight onPress={() => this._linkPressed(`${(data.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableHighlight>
         <TouchableHighlight onPress={() => this._linkPressed(`${(data.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.links} /></TouchableHighlight>
         <TouchableHighlight onPress={() => this._linkPressed(`${(data.twitter)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableHighlight>
+
       </View>
     </View>
   </View>
