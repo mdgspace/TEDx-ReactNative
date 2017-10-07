@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { View, Text, ListView, ActivityIndicator, Image, StyleSheet } from "react-native";
 import { List, Card, ListItem, SearchBar } from "react-native-elements";
-//import {BoxShadow} from 'react-native-shadow'
 import Row from './scheduleRow.js'
 import Break from './break.js'
 

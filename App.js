@@ -1,9 +1,11 @@
 import React from 'react';
+
 import { StyleSheet, Text, View, Image } from 'react-native';
 import Schedule from './components/Schedule';
 import Speakers from './components/speakers.js'
 import InfoScreen from './components/info.js'
 import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation'
+
 
 
 export default class App extends React.Component {
@@ -28,6 +30,8 @@ export default class App extends React.Component {
       Element = InfoScreen;
     }
     return (
+
+
 
       <View style={styles.container}>
         <View style={styles.labelBar}>
