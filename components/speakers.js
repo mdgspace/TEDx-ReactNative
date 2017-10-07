@@ -25,19 +25,20 @@ export default class Speakers extends React.Component {
       });
   }
 
-  render() {
-    if (this.state.isLoading) {
-      return (
-        <View style={{ flex: 1, paddingTop: 20 }}>
-          <ActivityIndicator />
-        </View>
-      );
-    }
-    return (
-      <View style={styles.container}><ListView
-        dataSource={this.state.dataSource}
-        renderRow={(rowData) => <Row {...rowData} />}
-      />
+
+    render() {
+        if (this.state.isLoading) {
+            return (
+              <View style={{flex: 1, paddingTop: 50}}>
+                <ActivityIndicator />
+              </View>
+            );
+          }
+        return (
+        <View style={styles.container}><ListView
+          dataSource={this.state.dataSource}
+          renderRow={(rowData) => <Row {...rowData}/>}
+        />
       </View>
     );
   }
