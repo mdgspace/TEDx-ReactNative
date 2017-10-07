@@ -21,15 +21,16 @@ class EventMain extends Component {
   render() {
   
   return (
-
-      <View>
-         <Tabs selected={this.state.page} style={{backgroundColor:'#FFFFFF', top:0, marginTop:25}}
+//change background colour to specified
+      <View style={{backgroundColor: 'rgba(237, 23, 23, 0.01)', flex: 1}}>
+         <Tabs selected={this.state.page} style={{backgroundColor:'#FFFFFF', top:0, marginTop:25, borderBottomColor: '#e0e0e0', borderBottomWidth: 1}}
               selectedStyle={{color:'#ed1717'}} onSelect={el=>this.setState({page:el.props.name})}>
             <Text name="first">2017(2.0)</Text>
             <Text name="second">2017</Text>
             <Text name="third">2016</Text>
             <Text name="fourth">2015</Text>
         </Tabs>
+
           <EventItem fetchParam={this.state.page} />
       </View> 
       );

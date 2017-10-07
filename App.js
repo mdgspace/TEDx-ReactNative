@@ -5,7 +5,6 @@ import Speakers from './components/speakers.js'
 import InfoScreen from './components/info.js'
 import BottomNav from './components/bottomnav.js'
 import EventItem from './components/EventItem.js'
-import TopBar from './components/topbar.js'
 import EventMain from './components/EventMain.js'
 
 
