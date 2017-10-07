@@ -15,7 +15,7 @@ export default class App extends React.Component {
       // </View>
 
       <View style={styles.container}>
-        <Speakers/>
+        <BottomNav/>
       </View>
     );
   }
