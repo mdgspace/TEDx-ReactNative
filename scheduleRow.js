@@ -10,6 +10,12 @@ const styles = StyleSheet.create(
     marginLeft: 16,
     marginRight: 16,
     backgroundColor: '#FFEBEE',
+    borderRadius: 2,
+    shadowColor: 'rgba(0, 0, 0, 0.1)',
+    shadowOffset: {
+      width: 0,
+      height: 1.33
+    },
     flexDirection: 'row',
   },
 
@@ -27,14 +33,17 @@ const styles = StyleSheet.create(
     { 
       flex: 1,
       flexDirection: 'row',
-      justifyContent: 'center',
-      alignItems: 'flex-end',   
+      justifyContent: 'flex-end', 
+      alignItems: 'flex-end',
+      marginBottom: 10,   
     },
     
     speaker:
     { 
       marginTop: 8,
       flexDirection: 'row',
+      alignItems: 'center',
+      marginTop: 9, 
     },
 
   time:
@@ -53,32 +62,35 @@ const styles = StyleSheet.create(
   {
    fontSize: 9,
    color: '#929292',
+   marginLeft: 6,
   },
 
   speakerImage:
   {
-   height: 30,
-   width: 30,
+   height: 27,
+   width: 27,
   },
 
   topic:
   {fontSize: 12,
-   fontWeight:'bold',  
+   color: '#0e0e0e',
   },
 
   speakerName:
   {
-    fontSize: 10,
+    fontSize: 9,
+    color: 'rgba(14, 14, 14, 0.9)',
   },
 
   speakerDesignation:
   {
-    fontSize: 8,
+    fontSize: 7,
+    color: 'rgba(0, 0, 0, 0.72)',
   },
 
   additionalDetails:
   {
-   fontSize: 11,
+   fontSize: 8,
    color : 'rgba(0, 0, 0, 0.58)', 
   },
 
@@ -96,7 +108,7 @@ const Row = (props) => (
   <View style={styles.container}>
     <View style ={styles.firstContainer}>
       <Text style={styles.time}>10:00AM</Text>
-      <View style={{flexDirection: 'row'}}>
+      <View style={{flexDirection: 'row', alignItems: 'center'}}>
         <Image source = {require('./durationplaceholder.png')} style={styles.durationPlaceholder}/> 
         <Text style={styles.durationText}>45min</Text>
       </View>
