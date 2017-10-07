@@ -59,7 +59,7 @@ class Schedule extends Component {
           <View style = {styles.labelBar}>
             <Image source={require('./../images/label.png')} style={styles.labelImage}/>
           </View>
-          <View style={{flex: 1, backgroundColor: 'rgba(237, 23, 23, 0.03)'}}>
+          <View style={{flex: 1, backgroundColor: '#fff'}}>
             <ListView 
               style={{marginTop:25}}
               dataSource = {this.state.dataSource}
