@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Schedule from './Schedule';
 
 import Speakers from './components/speakers.js'
-import BottomNav from './components/bottomnav.js'
+import InfoScreen from './components/info.js'
 
 export default class App extends React.Component {
   render() {
@@ -11,6 +11,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Speakers/>
         <BottomNav/>
+        <InfoScreen/>
         <Schedule/>
       </View>
     );
