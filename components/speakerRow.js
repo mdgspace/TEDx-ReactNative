@@ -7,17 +7,19 @@ const styles = StyleSheet.create({
     padding: 12,
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 20
+    margin: 10,
+    elevation: 1,
+    backgroundColor: '#fff'
   },
-  innerContainer1:{
+  innerContainer1: {
     flexDirection: 'row',
   },
-  innerContainer2:{
+  innerContainer2: {
     flexDirection: 'column',
   },
   name: {
     marginLeft: 12,
-    fontSize: 24,
+    fontSize: 20,
   },
   designation: {
     marginLeft: 12,
@@ -30,11 +32,11 @@ const styles = StyleSheet.create({
     height: 100,
     width: 100,
     borderRadius: 50,
-   },
+  },
   links: {
     height: 30,
     width: 30,
-    marginLeft: 12 
+    marginLeft: 12
   }
 });
 
@@ -43,23 +45,23 @@ const data = [{ "name": "SUSHRUTI KRISHNA", "designation": "Model & Architect", 
 const Row = (data) => (
   <View style={styles.container}>
     <View style={styles.innerContainer1}>
-    <Image source={require('./../images/iitr.png')} style={styles.photo} />
+      <Image source={require('./../images/iitr.png')} style={styles.photo} />
     </View>
     <View style={styles.innerContainer2}>
-    <Text style={styles.name}>
-      {`${data.name}`}{'\n'}
-    </Text>
-    <Text style={styles.designation}>
-      {`${data.designation}`}{'\n'}
-    </Text>
-    <View style={styles.innerContainer1}>
-    <TouchableHighlight onPress={()=> this._linkPressed(`${(data.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableHighlight>
-    <TouchableHighlight onPress={()=> this._linkPressed(`${(data.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.links} /></TouchableHighlight>
-    <TouchableHighlight onPress={()=> this._linkPressed(`${(data.twitter)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableHighlight>
+      <Text style={styles.name}>
+        {`${data.name}`}{'\n'}
+      </Text>
+      <Text style={styles.designation}>
+        {`${data.designation}`}{'\n'}
+      </Text>
+      <View style={styles.innerContainer1}>
+        <TouchableHighlight onPress={() => this._linkPressed(`${(data.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableHighlight>
+        <TouchableHighlight onPress={() => this._linkPressed(`${(data.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.links} /></TouchableHighlight>
+        <TouchableHighlight onPress={() => this._linkPressed(`${(data.twitter)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableHighlight>
 
+      </View>
     </View>
-    </View> 
-    </View>
+  </View>
 );
 {/*const Row = (props) => (
   <View style={styles.container}>

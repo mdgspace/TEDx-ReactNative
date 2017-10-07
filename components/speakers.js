@@ -28,7 +28,7 @@ export default class Speakers extends React.Component {
     render() {
         if (this.state.isLoading) {
             return (
-              <View style={{flex: 1, paddingTop: 20}}>
+              <View style={{flex: 1, paddingTop: 50}}>
                 <ActivityIndicator />
               </View>
             );
