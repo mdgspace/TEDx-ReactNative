@@ -30,9 +30,6 @@ export default class App extends React.Component {
       Element = InfoScreen;
     }
     return (
-
-
-
       <View style={styles.container}>
         <View style={styles.labelBar}>
           <Image source={require('./images/label.png')} style={styles.labelImage} />
@@ -41,6 +38,7 @@ export default class App extends React.Component {
         <BottomNavigation
           labelColor="white"
           rippleColor="red"
+          activeTab= {this.state.currentTab}
           style={{ height: 56, elevation: 8, position: 'absolute', left: 0, bottom: 0, right: 0 }}
           onTabChange={(newTabIndex) => {
             this.setState({
