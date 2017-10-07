@@ -31,7 +31,8 @@ popcornImage:
 breakText:
 {
  fontSize: 15,
- fontWeight: 'bold',  
+ fontWeight: '600',
+ color: '#0e0e0e',   
 },
 
 firstContainer:

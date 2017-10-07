@@ -60,7 +60,7 @@ class Schedule extends Component {
           <ListView 
             style={{marginTop:25}}
             dataSource = {this.state.dataSource}
-            renderRow = {(item) => <Row {...item}/>}
+            renderRow = {(item) => item.id === 1 ? <Break {...item}/> : <Row {...item}/> }
           />
       </View>    
       );
@@ -80,7 +80,6 @@ const styles = StyleSheet.create(
     labelBar:
     {height: 47,
      justifyContent: 'center',
-     shadowRadius: 10,
     },
     labelImage:
     { width: 100,
