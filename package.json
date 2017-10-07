@@ -26,6 +26,6 @@
     "react-native-material-bottom-navigation": "^0.5.2",
     "react-native-shadow": "^1.2.1",
     "react-native-svg": "^5.4.1",
-    "react-native-tabs": "^1.0.9"
+    "react-native-tabs": "^1.0.9",
   }
 }
