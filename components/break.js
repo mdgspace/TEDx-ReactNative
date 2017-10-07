@@ -87,12 +87,12 @@ const Break = (props) => (
 <View style = {styles.container}>
 	<View style={styles.startMarker}/>	
 <View style = {styles.container1}>
-	<Image source = {require('./popcorn.png')} style = {styles.popcornImage}/>
+	<Image source = {require('./../images/popcorn.png')} style = {styles.popcornImage}/>
 	<Text style={styles.breakText}>Break</Text>	
 	<View style ={styles.firstContainer}>
       <Text style={styles.time}>10:00AM</Text>
       <View style={{flexDirection: 'row', alignItems: 'center'}}>
-        <Image source = {require('./durationplaceholder.png')} style={styles.durationPlaceholder}/> 
+        <Image source = {require('./../images/durationplaceholder.png')} style={styles.durationPlaceholder}/> 
         <Text style={styles.durationText}>45min</Text>
       </View>
     </View>

@@ -107,7 +107,7 @@ const Row = (props) => (
     <View style ={styles.firstContainer}>
       <Text style={styles.time}>10:00AM</Text>
       <View style={{flexDirection: 'row', alignItems: 'center'}}>
-        <Image source = {require('./durationplaceholder.png')} style={styles.durationPlaceholder}/> 
+        <Image source = {require('./../images/durationplaceholder.png')} style={styles.durationPlaceholder}/> 
         <Text style={styles.durationText}>45min</Text>
       </View>
     </View>
@@ -115,7 +115,7 @@ const Row = (props) => (
     <View style ={styles.secondContainer}>
         <Text style={styles.topic}>{props.theme}</Text>
             <View style={styles.speaker}>
-                <Image source = {require('./iitr.png')} style={styles.speakerImage}/>
+                <Image source = {require('./../images/iitr.png')} style={styles.speakerImage}/>
                     <View style={{flexDirection: 'column', marginLeft: 10,justifyContent:'center'}}>
                       <Text style = {styles.speakerName}>Vivek Anand</Text>
                       <Text style = {styles.speakerDesignation}>Designer</Text>
@@ -124,7 +124,7 @@ const Row = (props) => (
     </View>
     <View style ={styles.thirdContainer}>
       <Text style={styles.additionalDetails}>VIEW PROFILE</Text>
-      <Image source={require('./dropdown.png')} style={styles.dropdownimage}/>
+      <Image source={require('./../images/dropdown.png')} style={styles.dropdownimage}/>
     </View>
   </View>
 );
