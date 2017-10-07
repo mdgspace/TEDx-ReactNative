@@ -1,26 +1,43 @@
 import React from 'react';
-import { StyleSheet, Text, View, Platform, TouchableHighlight, TouchableNativeFeedback, Image } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default class InfoScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
                 <View style={styles.row}>
-                    <Image source={require('./../images/speakers-red.png')} style={styles.icons} />
-                    <TouchableHighlight>
-                    <View style={styles.textholderview}><Text style={styles.text}>SPONSORS</Text></View>
-                    </TouchableHighlight>
+                    <View style={styles.iconholder}>
+                        <Image source={require('./../images/sponsors.png')} style={styles.icons} />
+                    </View>
+                    <View style={styles.textholderview}>
+                        <Text style={styles.text}>
+                            Sponsors
+                        </Text>
+                    </View>
                 </View>
-                <View style={{
-                    flex: 1,
-                    alignItems: 'flex-start',
-                    flexDirection: 'row',
-                    justifyContent: 'space-around', backgroundColor: 'yellow'
-                }}>
-                    <Image source={require('./../images/speakers-red.png')} style={styles.icons} />
-                    <TouchableHighlight>
-                       <View style={styles.textholderview}><Text style={styles.text}>TEAM</Text></View>
-                    </TouchableHighlight>
+                <View style={styles.row}>
+                    <View style={styles.iconholder}>
+                        <Image source={require('./../images/team.png')} style={styles.icons} />
+                    </View>
+                    <View style={styles.textholderview}>
+                        <Text style={styles.text}>
+                            Team
+                        </Text>
+                    </View>
+                </View>
+                <View style={styles.follow}>
+                    <View style={{ backgroundColor: '#fff', flex: 0.3, flexDirection: 'row', alignSelf: 'flex-start', marginLeft: 15 }}>
+                        <View style={{ backgroundColor: '#fff', flex: 1 }}>
+                            <Text style={{ fontSize: 25 }}>Follow Us</Text>
+                        </View>
+                    </View>
+                    <View style={{ backgroundColor: '#fff', flex: 0.7, flexDirection: 'row', alignSelf: 'flex-start', margin: 10 }}>
+                        <View style={{ flex: 1, marginLeft: 40, flexDirection: 'row' }}>
+                            <Image source={require('./../images/fb.png')} style={styles.social} />
+                            <Image source={require('./../images/linkedin.png')} style={styles.social} />
+                            <Image source={require('./../images/twitter.png')} style={styles.social} />
+                        </View>
+                    </View>
                 </View>
             </View>
         );
@@ -29,35 +46,49 @@ export default class InfoScreen extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 0.2,
+        flex: 0.45,
         marginTop: 40,
+        alignItems: 'center',
+        justifyContent: 'space-around',
         backgroundColor: '#fff',
-
+        elevation: 5,
+        margin: 20
     },
     row: {
-        flex: 1,
-        alignItems: 'flex-start',
+        flex: 0.5,
         flexDirection: 'row',
-        justifyContent: 'space-around',
-        backgroundColor: 'blue'
+        backgroundColor: '#fff',
+        margin: 10,
+        marginTop: 0,
+        borderBottomWidth: 0.5,
+        borderBottomColor: 'rgba(0,0,0,0.3)'
     },
     icons: {
-        flex: 0.2,
-        height: 20,
-        width: 20,
-        flexDirection: 'row',
-        alignSelf: 'center',
-        marginLeft: 10
+        height: 36,
+        width: 36
     },
     text: {
-        flex: 1,
-        alignSelf: 'center',        
-        marginLeft: 50,
-        marginRight: 40
+        fontSize: 20,
     },
-    textholderview:{
+    textholderview: {
+        flex: 0.8,
+        alignItems: 'flex-start',
+        alignSelf: 'center',
+    },
+    iconholder: {
+        flex: 0.2,
+        padding: 5,
+        alignItems: 'center',
+        alignSelf: 'center'
+    },
+    follow: {
         flex: 1,
-        marginTop: 10,
-        alignSelf: 'auto',
+        alignItems: 'flex-end',
+        justifyContent: 'space-around'
+    },
+    social:{
+        width: 48,
+        height: 48,
+        marginRight: 15
     }
 });
