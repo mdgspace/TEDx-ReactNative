@@ -2,10 +2,17 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Schedule from './Schedule';
 
+import Speakers from './components/speakers.js'
+import BottomNav from './components/bottomnav.js'
+
 export default class App extends React.Component {
   render() {
     return (
-      <Schedule style={styles.container}/>
+      <View style={styles.container}>
+        <Speakers/>
+        <BottomNav/>
+        <Schedule/>
+      </View>
     );
   }
 }
@@ -15,6 +22,5 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor:'#ed1717',
     alignItems: 'center',
-    justifyContent: 'center',
   },
 });
