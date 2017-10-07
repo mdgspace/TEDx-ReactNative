@@ -1,9 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import Schedule from './components/Schedule';
-import Speakers from './components/speakers.js'
-import InfoScreen from './components/info.js'
-import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation'
+import Speakers from './components/speakers.js';
+import InfoScreen from './components/info.js';
+import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation';
+import Organizers from './components/team.js'
 
 
 export default class App extends React.Component {
