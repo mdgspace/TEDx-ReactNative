@@ -59,11 +59,13 @@ class Schedule extends Component {
           <View style = {styles.labelBar}>
             <Image source={require('./label.png')} style={styles.labelImage}/>
           </View>
-          <ListView 
-            style={{marginTop:25}}
-            dataSource = {this.state.dataSource}
-            renderRow = {(item) => item.id === 1 ? <Break {...item}/> : <Row {...item}/> }
-          />
+          <View style={{flex: 1, backgroundColor: 'rgba(237, 23, 23, 0.03)'}}>
+            <ListView 
+              style={{marginTop:25}}
+              dataSource = {this.state.dataSource}
+              renderRow = {(item) => item.id === 1 ? <Break {...item}/> : <Row {...item}/> }
+            />
+          </View>
       </View>    
       );
   }
