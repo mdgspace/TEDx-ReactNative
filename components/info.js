@@ -47,7 +47,7 @@ export default class InfoScreen extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 0.45,
-        marginTop: 40,
+        marginTop: 15,
         alignItems: 'center',
         justifyContent: 'space-around',
         backgroundColor: '#fff',
