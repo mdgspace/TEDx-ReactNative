@@ -3,7 +3,7 @@ import {Image} from 'react-native';
 import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation'
 
 export default class BottomNav extends React.Component {
-
+  
   render() {
     return (
       <BottomNavigation
@@ -35,3 +35,4 @@ export default class BottomNav extends React.Component {
     );
   }
 }
+
