@@ -55,10 +55,6 @@ class Schedule extends Component {
 
       return (
       <View style={styles.container}>
-          <View style = {styles.topBar}/>
-          <View style = {styles.labelBar}>
-            <Image source={require('./../images/label.png')} style={styles.labelImage}/>
-          </View>
           <View style={{flex: 1, backgroundColor: '#fff'}}>
             <ListView 
               style={{marginTop:25}}
