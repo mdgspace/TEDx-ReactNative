@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, TouchableHighlight } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableWithoutFeedback, Linking } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -57,9 +57,9 @@ const Row = (data) => (
         {`${data.designation}`}{'\n'}
       </Text>
       <View style={styles.innerContainer1}>
-        <TouchableHighlight onPress={() => this._linkPressed(`${(data.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableHighlight>
-        <TouchableHighlight onPress={() => this._linkPressed(`${(data.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.links} /></TouchableHighlight>
-        <TouchableHighlight onPress={() => this._linkPressed(`${(data.twitter)}`)} ><Image source={require('./../images/twitter.png')} style={styles.links} /></TouchableHighlight>
+        <TouchableWithoutFeedback onPress={() =>  Linking.openURL(`${(data.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={() =>  Linking.openURL(`${(data.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.links} /></TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={() =>  Linking.openURL(`${(data.twitter)}`)} ><Image source={require('./../images/twitter.png')} style={styles.links} /></TouchableWithoutFeedback>
       </View>
     </View>
   </View>
