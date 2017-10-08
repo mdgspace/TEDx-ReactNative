@@ -85,16 +85,23 @@ time:
 });
 
 const Break = (props) => (
+    var amorpm;
+    var timestamp=this.props.start_time;
+    var toCheck=timestamp.charAt(0)+timestamp.charAt(1);
+    if (Number.parseInt(toCheck, 10)>=12)
+        amorpm=' PM';
+      else
+        amorpm=' AM';
 <View style = {styles.container}>
 	<View style={styles.startMarker}/>	
 <View style = {styles.container1}>
 	<Image source = {require('./../images/popcorn.png')} style = {styles.popcornImage}/>
-	<Text style={styles.breakText}>Break</Text>	
+	<Text style={styles.breakText}>BREAK</Text>	
 	<View style ={styles.firstContainer}>
-      <Text style={styles.time}>10:00AM</Text>
+      <Text style={styles.time}>{props.start_time+amorpm}</Text>
       <View style={{flexDirection: 'row', alignItems: 'center'}}>
         <Image source = {require('./../images/durationplaceholder.png')} style={styles.durationPlaceholder}/> 
-        <Text style={styles.durationText}>45min</Text>
+        <Text style={styles.durationText}>{props.duration+'min'}</Text>
       </View>
     </View>
  </View>

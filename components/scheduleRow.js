@@ -126,24 +126,31 @@ export default class Row extends React.Component {
   }
 
   render() {
+    var amorpm;
+    var timestamp=this.props.start_time;
+    var toCheck=timestamp.charAt(0)+timestamp.charAt(1);
+    if (Number.parseInt(toCheck, 10)>=12)
+        amorpm=' PM';
+      else
+        amorpm=' AM';
     return (
       <View style={styles.container}>
         <View style={styles.container1}>
           <View style={styles.firstContainer}>
-            <Text style={styles.time}>10:00AM</Text>
+            <Text style={styles.time}>{this.props.start_time+amorpm}</Text>
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
               <Image source={require('./../images/durationplaceholder.png')} style={styles.durationPlaceholder} />
-              <Text style={styles.durationText}>45min</Text>
+              <Text style={styles.durationText}>{this.props.duration+'min'}</Text>
             </View>
           </View>
 
           <View style={styles.secondContainer}>
-            <Text style={styles.topic}>{this.props.theme}</Text>
+            <Text style={styles.topic}>{this.props.title}</Text>
             <View style={styles.speaker}>
-              <Image source={require('./../images/iitr.png')} style={styles.speakerImage} />
+              <Image source={{uri : this.props.speaker.profile_pic}} style={styles.speakerImage} />
               <View style={{ flexDirection: 'column', marginLeft: 10, justifyContent: 'center' }}>
-                <Text style={styles.speakerName}>Vivek Anand</Text>
-                <Text style={styles.speakerDesignation}>Designer</Text>
+                <Text style={styles.speakerName}>{this.props.speaker.name}</Text>
+                <Text style={styles.speakerDesignation}>{this.props.speaker.designation}</Text>
               </View>
             </View>
           </View>
@@ -159,7 +166,7 @@ export default class Row extends React.Component {
         <Collapsible collapsed={this.state.isCollapsed}>
           <View style={{marginTop: 10}}>
             <Text>
-              this.setStatere  giste\se}) but it is not causing the re render of the parent (index.ios.js). Is the a super(state) method or something similar that I am missing ? I believe the parent state is not getting the values of the updated register variable
+            {this.props.speaker.about}
             </Text>
           </View>
         </Collapsible>

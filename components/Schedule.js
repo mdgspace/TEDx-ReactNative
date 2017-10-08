@@ -26,7 +26,7 @@ class Schedule extends Component {
 
   makeRemoteRequest = () => {
     //api url needs to be changed
-    const url = 'https://tedxiitr.herokuapp.com/api/events/?format=json';
+    const url = 'http://13.59.205.85/api/schedule/';
     this.setState({ loading: true });
 
     fetch(url)
@@ -57,7 +57,7 @@ class Schedule extends Component {
           <View style={{backgroundColor:'rgba(0,0,0,0.03)'}}>
             <ListView 
               dataSource = {this.state.dataSource}
-              renderRow = {(item) => item.id === 2 ? <Break {...item}/> : <Row {...item}/> }
+              renderRow = {(item) => item.type === 'br' ? <Break {...item}/> : <Row {...item}/> }
             />
           </View>
       </View>    
