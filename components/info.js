@@ -2,19 +2,9 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, Linking, TouchableWithoutFeedback } from 'react-native';
 
 export default class InfoScreen extends React.Component {
-
-    navSponsors(){
-    this.props.navigator.push({
-      id: 'sponsors'
-    })
-  }
-   navTeam(){
-    this.props.navigator.push({
-      id: 'team'
-    })
-  }
-
+static navigationOptions = {header: null };
     render() {
+        const { navigate } = this.props.navigation;
         return (
             <View style={styles.container}>
                 <View style={styles.row}>
@@ -22,7 +12,7 @@ export default class InfoScreen extends React.Component {
                         <Image source={require('./../images/sponsors.png')} style={styles.icons} />
                     </View>
                     <View style={styles.textholderview}>
-                        <Text style={styles.text} onPress={this.navSponsors.bind(this)}>
+                        <Text style={styles.text} onPress={() => navigate('sponsors')}>
                             Sponsors
                         </Text>
                     </View>
@@ -32,7 +22,7 @@ export default class InfoScreen extends React.Component {
                         <Image source={require('./../images/team.png')} style={styles.icons} />
                     </View>
                     <View style={styles.textholderview}>
-                        <Text style={styles.text} onPress={this.navTeam.bind(this)}>
+                        <Text style={styles.text} onPress={() => navigate('team')}>
                             Team
                         </Text>
                     </View>

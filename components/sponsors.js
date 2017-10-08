@@ -10,6 +10,9 @@ export default class Sponsors extends React.Component {
     }
 
   }
+  static navigationOptions = {
+    title: 'Sponsors',
+  };
 
   componentDidMount() {
     return fetch('http://tedxiitr.herokuapp.com/api/organizers/?format=json')
@@ -57,11 +60,11 @@ export default class Sponsors extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
+  	top:0,
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 20
   },
   toolbar:
   {	
