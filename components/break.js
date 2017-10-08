@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
+import Moment from 'moment';
 
 const styles = StyleSheet.create(
 { 
@@ -84,22 +85,30 @@ time:
 
 });
 
-const Break = (props) => (
+export default class Break extends React.Component {
+  constructor(props) {
+    super(props);
+    
+  }  
+  
+  render() {
+   Moment.locale('in');
+      return(
 <View style = {styles.container}>
 	<View style={styles.startMarker}/>	
 <View style = {styles.container1}>
 	<Image source = {require('./../images/popcorn.png')} style = {styles.popcornImage}/>
-	<Text style={styles.breakText}>Break</Text>	
+	<Text style={styles.breakText}>BREAK</Text>	
 	<View style ={styles.firstContainer}>
-      <Text style={styles.time}>10:00AM</Text>
+      <Text style={styles.time}>{Moment(this.props.start_time).utcOffset('+0000').format('LT')}</Text>
       <View style={{flexDirection: 'row', alignItems: 'center'}}>
         <Image source = {require('./../images/durationplaceholder.png')} style={styles.durationPlaceholder}/> 
-        <Text style={styles.durationText}>45min</Text>
+        <Text style={styles.durationText}>{this.props.duration+'min'}</Text>
       </View>
     </View>
  </View>
 	<View style={styles.endMarker}/>	
 </View> 
 );
-
-export default Break;
+}
+};
