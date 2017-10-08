@@ -49,7 +49,7 @@ export default class App extends React.Component {
           labelColor="white"
           rippleColor="red"
           activeTab= {this.state.currentTab}
-          style={{ height: 56, elevation: 8, position: 'absolute', left: 0, bottom: 0, right: 0 }}
+          style={{ height: 56, elevation: 8, position: 'absolute', left: 0, bottom: 0, right: 0,borderTopColor: '#e0e0e0', borderTopWidth: 1 }}
           onTabChange={(newTabIndex) => {
             this.setState({
               currentTab: newTabIndex

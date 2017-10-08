@@ -47,11 +47,12 @@ export default class Speakers extends React.Component {
           <Text name="2016">2016</Text>
           <Text name="2015">2015</Text>
         </Tabs>
+        <View style={{backgroundColor:'rgba(0,0,0,0.03)', marginTop: 50}}>
         <ListView
-          style={{ marginTop: 65 }}
           dataSource={this.state.dataSource}
           renderRow={(rowData) => <Row {...rowData} />}
         />
+        </View>
       </View>
     );
   }

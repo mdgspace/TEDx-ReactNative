@@ -6,9 +6,10 @@ const styles = StyleSheet.create(
 container:
 { 
 	flex: 1,
-    marginBottom: 16,
-    marginLeft: 16,
-    marginRight: 16,
+  marginTop: 8,
+  marginBottom: 8,
+  marginLeft: 16,
+  marginRight: 16,
 	flexDirection: 'row', 
 	backgroundColor: '#FFFFFF',
 	borderRadius: 4,

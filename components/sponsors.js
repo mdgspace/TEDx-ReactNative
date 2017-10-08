@@ -34,21 +34,12 @@ export default class Sponsors extends React.Component {
         if (this.state.isLoading) {
             return (
               <View style={{flex: 1, paddingTop: 50}}>
-              <ToolbarAndroid style={styles.toolbar}
-                        title='Sponsors'
-                        navIcon={require('./../images/backarrow.png')}
-                        // onIconClicked={this.props.navigator.pop}
-                        titleColor={'#FFFFFF'}/>
                 <ActivityIndicator />
               </View>
             );
           }
         return (
         <View style={styles.container}>
-		<ToolbarAndroid style={styles.toolbar}
-                        title='Sponsors'
-                        navIcon={require('./../images/backarrow.png')}
-                        titleColor={'#FFFFFF'}/>
         <ListView
           dataSource={this.state.dataSource}
           renderRow={(rowData) => <Row {...rowData}/>}
@@ -62,13 +53,8 @@ const styles = StyleSheet.create({
   container: {
   	top:0,
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor:'rgba(0,0,0,0.03)',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  toolbar:
-  {	
-  	justifyContent: 'center', 
-
   },
 });

@@ -12,7 +12,6 @@ const styles = StyleSheet.create({
         borderWidth: 1.33,
         borderColor: '#e5e5e5',
         backgroundColor: '#fff'
-
     },
     innerContainer1: {
         flexDirection: 'row',

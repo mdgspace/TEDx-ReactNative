@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Image, ActivityIndicator } from 'react-native';
 
 const styles = StyleSheet.create(
 {container:
-{marginTop: 50, 
+{marginTop: 0, 
 },
 
 description:
