@@ -25,7 +25,8 @@ const styles = StyleSheet.create({
   },
   name: {
     marginLeft: 12,
-    fontSize: 20
+    fontSize: 20,
+    marginBottom: 5
   },
   designation: {
     marginLeft: 12,
