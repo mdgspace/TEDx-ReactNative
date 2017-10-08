@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { View, Text, ListView, ActivityIndicator, Image, StyleSheet } from "react-native";
 import { List, Card, ListItem, SearchBar } from "react-native-elements";
-//import {BoxShadow} from 'react-native-shadow'
 import Row from './scheduleRow.js'
 import Break from './break.js'
 
@@ -55,10 +54,6 @@ class Schedule extends Component {
 
       return (
       <View style={styles.container}>
-          <View style = {styles.topBar}/>
-          <View style = {styles.labelBar}>
-            <Image source={require('./../images/label.png')} style={styles.labelImage}/>
-          </View>
           <View style={{flex: 1, backgroundColor: '#fff'}}>
             <ListView 
               style={{marginTop:25}}
@@ -75,6 +70,7 @@ const styles = StyleSheet.create(
   {
     container:
     {flex:1,
+      marginBottom: 56
     },
 
     topBar:

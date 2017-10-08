@@ -1,11 +1,12 @@
 import React from 'react';
+
 import { StyleSheet, Text, View, Image } from 'react-native';
 import Schedule from './components/Schedule';
-import Speakers from './components/speakers.js';
-import InfoScreen from './components/info.js';
-import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation';
-import Organizers from './components/team.js'
-import Sponsors from './components/sponsors.js'
+import Speakers from './components/speakers.js'
+import InfoScreen from './components/info.js'
+import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation'
+import EventMain from './components/EventMain.js'
+
 
 
 export default class App extends React.Component {
@@ -24,18 +25,21 @@ export default class App extends React.Component {
       Element = Schedule;
     }
     else if (this.state.currentTab == 2) {
-      Element = Speakers;
+      Element = EventMain;
     }
     else if (this.state.currentTab == 3) {
       Element = InfoScreen;
     }
     return (
-
       <View style={styles.container}>
-        <Sponsors />
+        <View style={styles.labelBar}>
+          <Image source={require('./images/label.png')} style={styles.labelImage} />
+        </View>
+        <Element />
         <BottomNavigation
           labelColor="white"
           rippleColor="red"
+          activeTab= {this.state.currentTab}
           style={{ height: 56, elevation: 8, position: 'absolute', left: 0, bottom: 0, right: 0 }}
           onTabChange={(newTabIndex) => {
             this.setState({
@@ -77,5 +81,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+  },
+  labelBar:
+  {height: 47,
+    marginTop: 25,
+   justifyContent: 'center',
+   backgroundColor: '#FFFFFF',
+   borderBottomColor: '#e0e0e0',
+   borderBottomWidth: 1, 
+  },
+  labelImage:
+  { width: 100,
+    height: 17.5,
+    marginLeft:16,
   },
 });
