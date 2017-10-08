@@ -7,49 +7,42 @@ import Break from './break.js'
 import EventItem from './EventItem.js'
 
 var globalYear = 0;
-
+var responseData;
 class EventMain extends Component {
   
   constructor(props) {
     super(props);
     this.state = {
       isLoading: true,
-      page: '0',
+      data:[],
       };
   }
     componentDidMount() {
-      this.makeRemoteRequest();
-  }
-
-  
-
-  makeRemoteRequest = () => {
-    //api url needs to be changed
-var API_URL = 'http://13.59.205.85/api/events/'+globalYear;
-console.log(API_URL);
-    this.setState({ isLoading: true });
-
-    fetch(API_URL)
-      .then((res) => res.json())
+    this.setState(
+      { isLoading: true }
+    );
+    //change end points
+    console.log('http://13.59.205.85/api/events/' + globalYear);
+    return fetch('http://13.59.205.85/api/events/' + globalYear)
+      .then((response) => response.json())
       .then((responseJson) => {
-         this.setState({
+        responseData = responseJson[0];
+        console.log(responseData.theme);
+        this.setState({
           isLoading: false,
-          data: responseJson,
         });
       })
-      .catch(error => {
+      .catch((error) => {
         console.error(error);
       });
-  };
-
+  }
 
  
   render() {
-           //console.log(this.state.data.theme);
 if (this.state.isLoading) {
-      return (
+    return (
         <View style={{ flex: 1, paddingTop: 50 }}>
-          <Tabs onSelect={el => { globalYear = el.props.name; this.makeRemoteRequest(); }}
+          <Tabs onSelect={el => { globalYear = el.props.name; this.componentDidMount() }}
           selected={globalYear} style={{ backgroundColor: '#FFFFFF', top: 0, borderBottomColor: '#e0e0e0', borderBottomWidth: 1 }}
           selectedStyle={{ color: '#ed1717' }}>
           <Text name="0">2017(2.0)</Text>
@@ -63,7 +56,7 @@ if (this.state.isLoading) {
     }
   return (
       <View style={{backgroundColor: 'rgba(237, 23, 23, 0.01)', flex: 1}}>
-         <Tabs onSelect={el => { globalYear = el.props.name; console.log('year' + globalYear); console.log('tab' + el.props.name); this.componentDidMount(); }}
+         <Tabs onSelect={el => { globalYear = el.props.name; console.log('year' + globalYear); console.log('tab' + el.props.name); this.componentDidMount() }}
           selected={globalYear} style={{ backgroundColor: '#FFFFFF', top: 0, borderBottomColor: '#e0e0e0', borderBottomWidth: 1 }}
           selectedStyle={{ color: '#ed1717' }}>
             <Text name="0">2017(2.0)</Text>
@@ -72,7 +65,7 @@ if (this.state.isLoading) {
             <Text name="3">2015</Text>
         </Tabs>
         <View style={{backgroundColor:'rgba(0,0,0,0.03)',marginTop: 50, flex: 1}}>
-          <EventItem props={this.state.data} />
+          <EventItem {...responseData} />
         </View>
       </View> 
       );
