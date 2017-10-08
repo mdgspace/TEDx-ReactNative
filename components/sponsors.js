@@ -6,7 +6,7 @@ export default class Sponsors extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isLoading: true
+      isLoading: true,
     }
 
   }
@@ -15,7 +15,7 @@ export default class Sponsors extends React.Component {
   };
 
   componentDidMount() {
-    return fetch('http://tedxiitr.herokuapp.com/api/organizers/?format=json')
+    return fetch('http://tedxiitr.herokuapp.com/api/sponsors/?format=json')
       .then((response) => response.json())
       .then((responseJson) => {
         let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });

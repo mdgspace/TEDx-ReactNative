@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, TouchableHighlight } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableWithoutFeedback, Linking } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         margin: 10,
+        justifyContent: 'space-between',
         borderRadius: 2,
         borderWidth: 1.33,
         borderColor: '#e5e5e5',
@@ -51,7 +52,7 @@ const Row = (data) => (
             </Text>
         </View>
         <View style={styles.innerContainer2}>
-            <Image source={require('./../images/iitr.png')} style={styles.photo} />
+            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(data.link)}`)}><Image source={{uri: data.image}} style={styles.photo} /></TouchableWithoutFeedback>
         </View>
     </View>
 );
