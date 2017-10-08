@@ -1,6 +1,7 @@
  import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import Collapsible from 'react-native-collapsible';
+import Moment from 'moment';
 
 var styles = StyleSheet.create(
   {
@@ -126,18 +127,11 @@ export default class Row extends React.Component {
   }
 
   render() {
-    var amorpm;
-    var timestamp=this.props.start_time;
-    var toCheck=timestamp.charAt(0)+timestamp.charAt(1);
-    if (Number.parseInt(toCheck, 10)>=12)
-        amorpm=' PM';
-      else
-        amorpm=' AM';
     return (
       <View style={styles.container}>
         <View style={styles.container1}>
           <View style={styles.firstContainer}>
-            <Text style={styles.time}>{this.props.start_time+amorpm}</Text>
+            <Text style={styles.time}>{Moment(this.props.start_time).utcOffset('+0000').format('LT')}</Text>
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
               <Image source={require('./../images/durationplaceholder.png')} style={styles.durationPlaceholder} />
               <Text style={styles.durationText}>{this.props.duration+'min'}</Text>

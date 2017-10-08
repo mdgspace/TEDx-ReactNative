@@ -54,12 +54,12 @@ class Schedule extends Component {
 
       return (
       <View style={styles.container}>
-          <View style={{backgroundColor:'rgba(0,0,0,0.03)'}}>
+          
             <ListView 
               dataSource = {this.state.dataSource}
               renderRow = {(item) => item.type === 'br' ? <Break {...item}/> : <Row {...item}/> }
             />
-          </View>
+       
       </View>    
       );
   }
@@ -69,7 +69,8 @@ const styles = StyleSheet.create(
   {
     container:
     {flex:1,
-      marginBottom: 56
+      marginBottom: 56,
+      backgroundColor:'rgba(0,0,0,0.03)',
     },
 
     topBar:
