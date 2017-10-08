@@ -2,6 +2,18 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default class InfoScreen extends React.Component {
+
+    navSponsors(){
+    this.props.navigator.push({
+      id: 'sponsors'
+    })
+  }
+   navTeam(){
+    this.props.navigator.push({
+      id: 'team'
+    })
+  }
+
     render() {
         return (
             <View style={styles.container}>
@@ -10,7 +22,7 @@ export default class InfoScreen extends React.Component {
                         <Image source={require('./../images/sponsors.png')} style={styles.icons} />
                     </View>
                     <View style={styles.textholderview}>
-                        <Text style={styles.text}>
+                        <Text style={styles.text} onPress={this.navSponsors.bind(this)}>
                             Sponsors
                         </Text>
                     </View>
@@ -20,7 +32,7 @@ export default class InfoScreen extends React.Component {
                         <Image source={require('./../images/team.png')} style={styles.icons} />
                     </View>
                     <View style={styles.textholderview}>
-                        <Text style={styles.text}>
+                        <Text style={styles.text} onPress={this.navTeam.bind(this)}>
                             Team
                         </Text>
                     </View>

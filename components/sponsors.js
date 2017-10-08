@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, ListView, ActivityIndicator } from 'react-native';
+import { StyleSheet, Text, View, ListView, ActivityIndicator, ToolbarAndroid } from 'react-native';
 import Row from './sponsorsRow.js'
 
 export default class Sponsors extends React.Component {
@@ -8,6 +8,7 @@ export default class Sponsors extends React.Component {
     this.state = {
       isLoading: true
     }
+
   }
 
   componentDidMount() {
@@ -30,12 +31,22 @@ export default class Sponsors extends React.Component {
         if (this.state.isLoading) {
             return (
               <View style={{flex: 1, paddingTop: 50}}>
+              <ToolbarAndroid style={styles.toolbar}
+                        title='Sponsors'
+                        navIcon={require('./../images/backarrow.png')}
+                        // onIconClicked={this.props.navigator.pop}
+                        titleColor={'#FFFFFF'}/>
                 <ActivityIndicator />
               </View>
             );
           }
         return (
-        <View style={styles.container}><ListView
+        <View style={styles.container}>
+		<ToolbarAndroid style={styles.toolbar}
+                        title='Sponsors'
+                        navIcon={require('./../images/backarrow.png')}
+                        titleColor={'#FFFFFF'}/>
+        <ListView
           dataSource={this.state.dataSource}
           renderRow={(rowData) => <Row {...rowData}/>}
         />
@@ -51,5 +62,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 20
+  },
+  toolbar:
+  {	
+  	justifyContent: 'center', 
+
   },
 });
