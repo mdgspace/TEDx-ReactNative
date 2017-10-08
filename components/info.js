@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, Linking, TouchableWithoutFeedback } from 'react-native';
 
 export default class InfoScreen extends React.Component {
     render() {
@@ -33,9 +33,9 @@ export default class InfoScreen extends React.Component {
                     </View>
                     <View style={{ backgroundColor: '#fff', flex: 0.7, flexDirection: 'row', alignSelf: 'flex-start', margin: 10 }}>
                         <View style={{ flex: 1, marginLeft: 40, flexDirection: 'row' }}>
-                            <Image source={require('./../images/fb.png')} style={styles.social} />
-                            <Image source={require('./../images/linkedin.png')} style={styles.social} />
-                            <Image source={require('./../images/twitter.png')} style={styles.social} />
+                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.social} /></TouchableWithoutFeedback>
+                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.social} /></TouchableWithoutFeedback>
+                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.twitter)}`)} ><Image source={require('./../images/twitter.png')} style={styles.social} /></TouchableWithoutFeedback>
                         </View>
                     </View>
                 </View>
