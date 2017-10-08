@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
 const Row = (data) => (
   <View style={styles.container}>
     <View style={styles.innerContainer1}>
-      <Image source={require('./../images/iitr.png')} style={styles.photo} />
+      <Image source={{uri: data.profile_pic}} style={styles.photo} />
     </View>
     <View style={styles.innerContainer2}>
       <Text style={styles.name}>
