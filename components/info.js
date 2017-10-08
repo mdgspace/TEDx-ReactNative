@@ -33,7 +33,7 @@ static navigationOptions = {header: null };
                             <Text style={{ fontSize: 25 }}>Follow Us</Text>
                         </View>
                     </View>
-                    <View style={{ backgroundColor: '#fff', flex: 0.7, flexDirection: 'row', alignSelf: 'flex-start', margin: 10 }}>
+                    <View style={{ backgroundColor: '#fff', flex: 0.7, flexDirection: 'row', alignSelf: 'flex-start', marginTop: 9 }}>
                         <View style={{ flex: 1, marginLeft: 40, flexDirection: 'row' }}>
                             <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.social} /></TouchableWithoutFeedback>
                             <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.social} /></TouchableWithoutFeedback>
