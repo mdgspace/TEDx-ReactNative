@@ -54,11 +54,10 @@ class Schedule extends Component {
 
       return (
       <View style={styles.container}>
-          <View style={{flex: 1, backgroundColor: '#fff'}}>
+          <View style={{backgroundColor:'rgba(0,0,0,0.03)'}}>
             <ListView 
-              style={{marginTop:25}}
               dataSource = {this.state.dataSource}
-              renderRow = {(item) => item.id === 1 ? <Break {...item}/> : <Row {...item}/> }
+              renderRow = {(item) => item.id === 2 ? <Break {...item}/> : <Row {...item}/> }
             />
           </View>
       </View>    

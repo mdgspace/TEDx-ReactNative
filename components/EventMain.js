@@ -30,8 +30,9 @@ class EventMain extends Component {
             <Text name="third">2016</Text>
             <Text name="fourth">2015</Text>
         </Tabs>
-
+        <View style={{backgroundColor:'rgba(0,0,0,0.03)',marginTop: 50, flex: 1}}>
           <EventItem fetchParam={this.state.page} />
+        </View>
       </View> 
       );
   }

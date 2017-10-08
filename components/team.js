@@ -50,7 +50,7 @@ export default class Organizers extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor:'rgba(0,0,0,0.03)',
     alignItems: 'center',
     justifyContent: 'center',
     

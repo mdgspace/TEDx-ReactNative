@@ -7,9 +7,10 @@ var styles = StyleSheet.create(
     container: {
       flex: 1,
       padding: 16,
-      marginBottom: 16,
+      marginBottom: 8,
       marginLeft: 16,
       marginRight: 16,
+      marginTop: 8,
       backgroundColor: '#FFFFFF',
       borderRadius: 2,
       borderWidth: 1.33,
