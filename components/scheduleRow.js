@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import Collapsible from 'react-native-collapsible';
 
@@ -156,7 +156,7 @@ export default class Row extends React.Component {
           </View>
         </View>
         <Collapsible collapsed={this.state.isCollapsed}>
-          <View>
+          <View style={{marginTop: 10}}>
             <Text>
               this.setStatere  giste\se}) but it is not causing the re render of the parent (index.ios.js). Is the a super(state) method or something similar that I am missing ? I believe the parent state is not getting the values of the updated register variable
             </Text>
