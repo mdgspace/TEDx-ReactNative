@@ -64,7 +64,7 @@ export default class Row extends React.Component {
 
     return (
       <View style={styles.container} onPress={() => { this.setState = { isCollapsed: false } }}>
-        <View style={{ flexDirection: 'row' }}>
+        <View style={{ flexDirection: 'row'}}>
           <View style={styles.innerContainer1}>
             <Image source={require('./../images/iitr.png')} style={styles.photo} />
           </View>

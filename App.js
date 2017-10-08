@@ -5,6 +5,7 @@ import Schedule from './components/Schedule';
 import Speakers from './components/speakers.js'
 import InfoScreen from './components/info.js'
 import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation'
+import EventMain from './components/EventMain.js'
 
 
 
@@ -24,7 +25,7 @@ export default class App extends React.Component {
       Element = Schedule;
     }
     else if (this.state.currentTab == 2) {
-      Element = Speakers;
+      Element = EventMain;
     }
     else if (this.state.currentTab == 3) {
       Element = InfoScreen;
