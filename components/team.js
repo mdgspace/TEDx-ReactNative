@@ -9,6 +9,9 @@ export default class Organizers extends React.Component {
       isLoading: true
     }
   }
+  static navigationOptions = {
+    title: 'Team',
+  };
 
   componentDidMount() {
     return fetch('http://tedxiitr.herokuapp.com/api/organizers/?format=json')
@@ -50,6 +53,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 20
+    
   },
 });

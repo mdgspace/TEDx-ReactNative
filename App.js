@@ -4,10 +4,17 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import Schedule from './components/Schedule';
 import Speakers from './components/speakers.js'
 import InfoScreen from './components/info.js'
+import Sponsors from './components/sponsors.js'
+import Organizers from './components/team.js'
 import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation'
 import EventMain from './components/EventMain.js'
+import { StackNavigator } from 'react-navigation';
 
-
+const Navigation = StackNavigator({
+  about: { screen: InfoScreen },
+  sponsors: { screen: Sponsors },
+  team: { screen: Organizers },
+});
 
 export default class App extends React.Component {
   constructor(props) {
@@ -28,13 +35,15 @@ export default class App extends React.Component {
       Element = EventMain;
     }
     else if (this.state.currentTab == 3) {
-      Element = InfoScreen;
+      Element = Navigation;
     }
+
+         
     return (
       <View style={styles.container}>
-        <View style={styles.labelBar}>
-          <Image source={require('./images/label.png')} style={styles.labelImage} />
-        </View>
+      <View style={styles.labelBar}>
+        <Image source={require('./images/label.png')} style={styles.labelImage} />
+      </View>
         <Element />
         <BottomNavigation
           labelColor="white"
@@ -82,6 +91,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
+
   labelBar:
   {height: 47,
     marginTop: 25,
