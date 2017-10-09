@@ -51,17 +51,23 @@ class Schedule extends Component {
         </View>
       );
     }
-
+      if(this.state.dataSource === null){
+        return(
+        <View/>)
+      }
+      else{
       return (
       <View style={styles.container}>
           
             <ListView 
+              enableEmptySections={true}
               dataSource = {this.state.dataSource}
               renderRow = {(item) => item.type === 'br' ? <Break {...item}/> : <Row {...item}/> }
             />
        
       </View>    
       );
+    }
   }
 };
 
