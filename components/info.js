@@ -9,7 +9,7 @@ static navigationOptions = {header: null };
             <View style={styles.container}>
                 <View style={styles.row}>
                     <View style={styles.iconholder}>
-                       <TouchableWithoutFeedback><Image source={require('./../images/sponsors.png')} style={styles.icons} onPress={() => navigate('sponsors')} /></TouchableWithoutFeedback>
+                       <TouchableWithoutFeedback onPress={() => navigate('sponsors')}><Image source={require('./../images/sponsors.png')} style={styles.icons} onPress={() => navigate('sponsors')} /></TouchableWithoutFeedback>
                     </View>
                     <View style={styles.textholderview}>
                         <Text style={styles.text} onPress={() => navigate('sponsors')}>
@@ -19,7 +19,7 @@ static navigationOptions = {header: null };
                 </View>
                 <View style={styles.row}>
                     <View style={styles.iconholder}>
-                        <TouchableWithoutFeedback><Image source={require('./../images/team.png')} style={styles.icons} onPress={() => navigate('team')}/></TouchableWithoutFeedback>
+                        <TouchableWithoutFeedback onPress={() => navigate('team')}><Image source={require('./../images/team.png')} style={styles.icons} onPress={() => navigate('team')}/></TouchableWithoutFeedback>
                     </View>
                     <View style={styles.textholderview}>
                         <Text style={styles.text} onPress={() => navigate('team')}>

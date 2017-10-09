@@ -101,8 +101,8 @@ export default class Row extends React.Component {
           </View>
         </View>
         <Collapsible collapsed={this.state.isCollapsed}>
-          <View style={{marginTop:10,fontSize: 11}}>
-            <Text>{this.props.about}</Text>
+          <View style={{marginTop:10}}>
+            <Text style={{fontSize: 11}}>{this.props.about}</Text>
           </View>
         </Collapsible>
       </View>

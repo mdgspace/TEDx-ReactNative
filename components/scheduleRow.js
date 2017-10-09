@@ -93,7 +93,7 @@ var styles = StyleSheet.create(
 
     additionalDetails:
     {  
-      fontSize: 11,
+      fontSize: 8,
       color: '#ed1717',
     },
 
@@ -155,7 +155,7 @@ export default class Row extends React.Component {
         </View>
         <Collapsible collapsed={this.state.isCollapsed}>
           <View style={{marginTop: 10}}>
-            <Text>
+            <Text style={{fontSize: 11}}>
             {this.props.speaker.about}
             </Text>
           </View>
