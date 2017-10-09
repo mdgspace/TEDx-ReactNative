@@ -26,14 +26,14 @@ var styles = StyleSheet.create(
 
     firstContainer:
     {
-      
       flexDirection: 'column',
     },
 
     secondContainer:
-    { flex:1,
-      marginLeft: 50,
+    { 
+      flex:1, 
       flexDirection: 'column',
+
     },
     
     speaker:
@@ -42,6 +42,8 @@ var styles = StyleSheet.create(
       flexDirection: 'row',
       alignItems: 'center',
       marginTop: 9,
+      flex:1,
+      marginLeft: 30,
     },
 
     time:
@@ -60,7 +62,7 @@ var styles = StyleSheet.create(
     {
       fontSize: 9,
       color: '#929292',
-      marginLeft: 6,
+      marginLeft: 4,
     },
 
     speakerImage:
@@ -72,6 +74,7 @@ var styles = StyleSheet.create(
     topic:
     {
       fontSize: 12,
+      marginLeft: 30,
       color: '#0e0e0e',
       fontWeight: 'bold',
     },
@@ -133,7 +136,7 @@ export default class Row extends React.Component {
 
           <View style={styles.secondContainer}>
             <Text style={styles.topic}>{this.props.title}</Text>
-            <View style={{flex:1,flexDirection: 'row', alignItems: 'flex-end',justifyContent: 'space-between'}}>
+            <View style={{flexDirection: 'row', alignItems: 'flex-end'}}>
               <View style={styles.speaker}>
                 <Image source={{uri : this.props.speaker.profile_pic}} style={styles.speakerImage} />
                 <View style={{ flexDirection: 'column', marginLeft: 10, justifyContent: 'center' }}>
@@ -141,7 +144,7 @@ export default class Row extends React.Component {
                   <Text style={styles.speakerDesignation}>{this.props.speaker.designation}</Text>
                 </View>
               </View>
-              <View style={{marginBottom: 13, flexDirection: 'row' }}>
+              <View style={{marginBottom: 13, flexDirection: 'row', marginRight:5 }}>
               <Text style={styles.additionalDetails} onPress={() => {
                   this.toggleViewState()}}>{this.state.isCollapsed ? 'VIEW PROFILE' : 'HIDE PROFILE'}</Text>
                     {this.state.isCollapsed ? <Image source={require('./../images/down.png')} style={styles.dropdownimage} /> : <Image source={require('./../images/up.png')} style={styles.dropdownimage} />}

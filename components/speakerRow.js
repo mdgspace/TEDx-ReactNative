@@ -15,13 +15,13 @@ const styles = StyleSheet.create({
     borderWidth: 1.33,
     borderColor: '#e5e5e5',
     backgroundColor: '#fff'
-
   },
   innerContainer1: {
     flexDirection: 'row',
   },
   innerContainer2: {
     flexDirection: 'column',
+    justifyContent: 'space-between', 
   },
   name: {
     marginLeft: 12,
@@ -70,12 +70,15 @@ export default class Row extends React.Component {
             <Image source={{uri: this.props.profile_pic}} style={styles.photo} />
           </View>
           <View style={styles.innerContainer2}>
-            <Text style={styles.name}>
-              {this.props.name}
-            </Text>
-            <Text style={styles.designation}>
-              {this.props.designation}
-            </Text>
+            <View>
+              <Text style={styles.name}>
+                {this.props.name}
+              </Text>
+              <Text style={styles.designation}>
+                {this.props.designation}
+              </Text>
+            </View>
+
             <View style={styles.innerContainer1}>
               <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.links} /></TouchableWithoutFeedback>
               <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.links} /></TouchableWithoutFeedback>
