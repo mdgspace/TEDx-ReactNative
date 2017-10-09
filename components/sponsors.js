@@ -15,7 +15,7 @@ export default class Sponsors extends React.Component {
   };
 
   componentDidMount() {
-    return fetch('http://tedxiitr.herokuapp.com/api/sponsors/?format=json')
+    return fetch('http://13.59.205.85/api/sponsors/')
       .then((response) => response.json())
       .then((responseJson) => {
         let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
