@@ -62,6 +62,7 @@ export default class Speakers extends React.Component {
         </Tabs>
         <View style={{ backgroundColor: 'rgba(0,0,0,0.03)', marginTop: 50 }}>
           <ListView
+            enableEmptySections={true}
             dataSource={this.state.dataSource}
             renderRow={(rowData) => <Row {...rowData} />}
           />

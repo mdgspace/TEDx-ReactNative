@@ -22,7 +22,6 @@ description:
 class EventItem extends Component {
   
   render() {
-    console.log(this.props.theme);
   return (
 <View style={styles.container}>	
 <View style={styles.description}>
