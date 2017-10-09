@@ -9,7 +9,7 @@ static navigationOptions = {header: null };
             <View style={styles.container}>
                 <View style={styles.row}>
                     <View style={styles.iconholder}>
-                        <Image source={require('./../images/sponsors.png')} style={styles.icons} />
+                       <TouchableWithoutFeedback><Image source={require('./../images/sponsors.png')} style={styles.icons} onPress={() => navigate('sponsors')} /></TouchableWithoutFeedback>
                     </View>
                     <View style={styles.textholderview}>
                         <Text style={styles.text} onPress={() => navigate('sponsors')}>
@@ -19,7 +19,7 @@ static navigationOptions = {header: null };
                 </View>
                 <View style={styles.row}>
                     <View style={styles.iconholder}>
-                        <Image source={require('./../images/team.png')} style={styles.icons} />
+                        <TouchableWithoutFeedback><Image source={require('./../images/team.png')} style={styles.icons} onPress={() => navigate('team')}/></TouchableWithoutFeedback>
                     </View>
                     <View style={styles.textholderview}>
                         <Text style={styles.text} onPress={() => navigate('team')}>
@@ -35,9 +35,9 @@ static navigationOptions = {header: null };
                     </View>
                     <View style={{ backgroundColor: '#fff', flex: 0.7, flexDirection: 'row', alignSelf: 'flex-start', marginTop: 9 }}>
                         <View style={{ flex: 1, marginLeft: 40, flexDirection: 'row' }}>
-                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.facebook)}`)} ><Image source={require('./../images/fb.png')} style={styles.social} /></TouchableWithoutFeedback>
-                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.linkedin)}`)} ><Image source={require('./../images/linkedin.png')} style={styles.social} /></TouchableWithoutFeedback>
-                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(this.props.twitter)}`)} ><Image source={require('./../images/twitter.png')} style={styles.social} /></TouchableWithoutFeedback>
+                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`https://www.facebook.com/n/?tedxiitr/`)} ><Image source={require('./../images/fb.png')} style={styles.social} /></TouchableWithoutFeedback>
+                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`https://www.linkedin.com/company/13283944/`)} ><Image source={require('./../images/linkedin.png')} style={styles.social} /></TouchableWithoutFeedback>
+                            <TouchableWithoutFeedback onPress={() => Linking.openURL(`https://twitter.com/TEDxIITRoorkee`)} ><Image source={require('./../images/twitter.png')} style={styles.social} /></TouchableWithoutFeedback>
                         </View>
                     </View>
                 </View>
