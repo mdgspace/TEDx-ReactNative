@@ -6,12 +6,15 @@ import Collapsible from 'react-native-collapsible';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 12,
+    paddingRight: 12,
+    paddingTop: 12,
+    paddingBottom: 12,
+    paddingLeft:12,
     flexDirection: 'column',
     alignItems: 'center',
     margin: 10,
     marginRight: 10,
-    borderRadius: 2,
+    borderRadius: 3,
     borderWidth: 1.33,
     borderColor: '#e5e5e5',
     backgroundColor: '#fff'
@@ -24,25 +27,25 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between', 
   },
   name: {
-    marginLeft: 12,
-    fontSize: 20,
+    marginLeft: 16,
+    fontSize: 13,
     marginBottom: 5
   },
   designation: {
-    marginLeft: 12,
-    fontSize: 12,
+    marginLeft: 16,
+    fontSize: 9,
     marginTop: -5,
     color: 'rgba(0, 0, 0, 0.72)',
     marginBottom: 5
   },
   photo: {
-    height: 100,
-    width: 100,
-    borderRadius: 50,
+    height: 90,
+    width: 90,
+    borderRadius: 45,
   },
   links: {
-    height: 30,
-    width: 30,
+    height: 22,
+    width: 22,
     marginLeft: 12
   }
 });
@@ -98,7 +101,7 @@ export default class Row extends React.Component {
           </View>
         </View>
         <Collapsible collapsed={this.state.isCollapsed}>
-          <View style={{marginTop:10}}>
+          <View style={{marginTop:10,fontSize: 11}}>
             <Text>{this.props.about}</Text>
           </View>
         </Collapsible>

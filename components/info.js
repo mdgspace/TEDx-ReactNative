@@ -42,6 +42,7 @@ static navigationOptions = {header: null };
                     </View>
                 </View>
             </View>
+        
         );
     }
 }
@@ -52,8 +53,8 @@ const styles = StyleSheet.create({
         marginTop: 15,
         alignItems: 'center',
         justifyContent: 'space-around',
-        backgroundColor: '#fff',
-        borderRadius: 2,
+        backgroundColor:'#fff',
+        borderRadius: 4,
         borderWidth: 1.33,
         borderColor: '#e5e5e5',
         margin: 20

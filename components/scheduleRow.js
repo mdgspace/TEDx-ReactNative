@@ -93,7 +93,7 @@ var styles = StyleSheet.create(
 
     additionalDetails:
     {  
-      fontSize: 8,
+      fontSize: 11,
       color: '#ed1717',
     },
 
