@@ -89,6 +89,7 @@ const styles = StyleSheet.create(
      backgroundColor: '#FFFFFF',
      borderBottomColor: '#e0e0e0',
      borderBottomWidth: 1, 
+    
     },
     labelImage:
     { width: 100,

@@ -26,31 +26,24 @@ var styles = StyleSheet.create(
 
     firstContainer:
     {
-      flex: 1,
       flexDirection: 'column',
     },
 
     secondContainer:
-    {
-      flex: 1,
-      marginLeft: 12,
+    { 
+      flex:1, 
       flexDirection: 'column',
-    },
-    thirdContainer:
-    {
-      flex: 1,
-      flexDirection: 'row',
-      justifyContent: 'flex-end',
-      alignItems: 'flex-end',
-      marginBottom: 10,
-    },
 
+    },
+    
     speaker:
     {
       marginTop: 8,
       flexDirection: 'row',
       alignItems: 'center',
       marginTop: 9,
+      flex:1,
+      marginLeft: 30,
     },
 
     time:
@@ -69,7 +62,7 @@ var styles = StyleSheet.create(
     {
       fontSize: 9,
       color: '#929292',
-      marginLeft: 6,
+      marginLeft: 4,
     },
 
     speakerImage:
@@ -81,6 +74,7 @@ var styles = StyleSheet.create(
     topic:
     {
       fontSize: 12,
+      marginLeft: 30,
       color: '#0e0e0e',
       fontWeight: 'bold',
     },
@@ -98,16 +92,18 @@ var styles = StyleSheet.create(
     },
 
     additionalDetails:
-    {
-      fontSize: 8,
+    {  
+      fontSize: 11,
       color: '#ed1717',
     },
 
     dropdownimage:
-    {
-      height: 10,
-      width: 10,
+    { 
+      resizeMode: 'contain',
+      height:10,
+      width:10,
       marginLeft: 5,
+      
     }
 
   });
@@ -140,22 +136,22 @@ export default class Row extends React.Component {
 
           <View style={styles.secondContainer}>
             <Text style={styles.topic}>{this.props.title}</Text>
-            <View style={styles.speaker}>
-              <Image source={{uri : this.props.speaker.profile_pic}} style={styles.speakerImage} />
-              <View style={{ flexDirection: 'column', marginLeft: 10, justifyContent: 'center' }}>
-                <Text style={styles.speakerName}>{this.props.speaker.name}</Text>
-                <Text style={styles.speakerDesignation}>{this.props.speaker.designation}</Text>
+            <View style={{flexDirection: 'row', alignItems: 'flex-end'}}>
+              <View style={styles.speaker}>
+                <Image source={{uri : this.props.speaker.profile_pic}} style={styles.speakerImage} />
+                <View style={{ flexDirection: 'column', marginLeft: 10, justifyContent: 'center' }}>
+                  <Text style={styles.speakerName}>{this.props.speaker.name}</Text>
+                  <Text style={styles.speakerDesignation}>{this.props.speaker.designation}</Text>
+                </View>
               </View>
-            </View>
+              <View style={{marginBottom: 13, flexDirection: 'row', marginRight:5 }}>
+              <Text style={styles.additionalDetails} onPress={() => {
+                  this.toggleViewState()}}>{this.state.isCollapsed ? 'VIEW PROFILE' : 'HIDE PROFILE'}</Text>
+                    {this.state.isCollapsed ? <Image source={require('./../images/down.png')} style={styles.dropdownimage} /> : <Image source={require('./../images/up.png')} style={styles.dropdownimage} />}
+              </View>
+            </View> 
           </View>
-          <View style={styles.thirdContainer} onPress={() => {
-                this.toggleViewState()
-              }}>
-            <Text style={styles.additionalDetails} onPress={() => {
-                this.toggleViewState()
-              }}>{this.state.isCollapsed ? 'VIEW PROFILE' : 'HIDE PROFILE'}</Text>
-            {this.state.isCollapsed ? <Image source={require('./../images/down.png')} style={styles.dropdownimage} /> : <Image source={require('./../images/up.png')} style={styles.dropdownimage} />}
-          </View>
+          
         </View>
         <Collapsible collapsed={this.state.isCollapsed}>
           <View style={{marginTop: 10}}>

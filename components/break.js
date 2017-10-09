@@ -98,7 +98,7 @@ export default class Break extends React.Component {
 	<View style={styles.startMarker}/>	
 <View style = {styles.container1}>
 	<Image source = {require('./../images/popcorn.png')} style = {styles.popcornImage}/>
-	<Text style={styles.breakText}>BREAK</Text>	
+	<Text style={styles.breakText}>Break</Text>	
 	<View style ={styles.firstContainer}>
       <Text style={styles.time}>{Moment(this.props.start_time).utcOffset('+0000').format('LT')}</Text>
       <View style={{flexDirection: 'row', alignItems: 'center'}}>
