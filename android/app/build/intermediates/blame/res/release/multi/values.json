@@ -7066,7 +7066,7 @@
                     "startOffset": 103919,
                     "endLine": 1368,
                     "endColumn": 12,
-                    "endOffset": 104076
+                    "endOffset": 104065
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/src/main/res/values/styles.xml",
@@ -7076,7 +7076,7 @@
                         "startOffset": 183,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 340
+                        "endOffset": 329
                     }
                 }
             },
@@ -7084,9 +7084,9 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 104081,
+                    "startOffset": 104070,
                     "endColumn": 83,
-                    "endOffset": 104160
+                    "endOffset": 104149
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7103,9 +7103,9 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 104165,
+                    "startOffset": 104154,
                     "endColumn": 95,
-                    "endOffset": 104256
+                    "endOffset": 104245
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7122,9 +7122,9 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 104261,
+                    "startOffset": 104250,
                     "endColumn": 95,
-                    "endOffset": 104352
+                    "endOffset": 104341
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7141,9 +7141,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104357,
+                    "startOffset": 104346,
                     "endColumn": 97,
-                    "endOffset": 104450
+                    "endOffset": 104439
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7160,9 +7160,9 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104455,
+                    "startOffset": 104444,
                     "endColumn": 99,
-                    "endOffset": 104550
+                    "endOffset": 104539
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7179,9 +7179,9 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 104555,
+                    "startOffset": 104544,
                     "endColumn": 101,
-                    "endOffset": 104652
+                    "endOffset": 104641
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7198,9 +7198,9 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 104657,
+                    "startOffset": 104646,
                     "endColumn": 101,
-                    "endOffset": 104754
+                    "endOffset": 104743
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7217,9 +7217,9 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104759,
+                    "startOffset": 104748,
                     "endColumn": 101,
-                    "endOffset": 104856
+                    "endOffset": 104845
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7236,9 +7236,9 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 104861,
+                    "startOffset": 104850,
                     "endColumn": 101,
-                    "endOffset": 104958
+                    "endOffset": 104947
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7255,9 +7255,9 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 104963,
+                    "startOffset": 104952,
                     "endColumn": 101,
-                    "endOffset": 105060
+                    "endOffset": 105049
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7274,9 +7274,9 @@
                 "to": {
                     "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 105065,
+                    "startOffset": 105054,
                     "endColumn": 99,
-                    "endOffset": 105160
+                    "endOffset": 105149
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7293,9 +7293,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 105165,
+                    "startOffset": 105154,
                     "endColumn": 95,
-                    "endOffset": 105256
+                    "endOffset": 105245
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7312,9 +7312,9 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 105261,
+                    "startOffset": 105250,
                     "endColumn": 111,
-                    "endOffset": 105368
+                    "endOffset": 105357
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7331,9 +7331,9 @@
                 "to": {
                     "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 105373,
+                    "startOffset": 105362,
                     "endColumn": 128,
-                    "endOffset": 105497
+                    "endOffset": 105486
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7350,9 +7350,9 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105502,
+                    "startOffset": 105491,
                     "endColumn": 122,
-                    "endOffset": 105620
+                    "endOffset": 105609
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7369,10 +7369,10 @@
                 "to": {
                     "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 105625,
+                    "startOffset": 105614,
                     "endLine": 1385,
                     "endColumn": 12,
-                    "endOffset": 105774
+                    "endOffset": 105763
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7390,10 +7390,10 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 105779,
+                    "startOffset": 105768,
                     "endLine": 1387,
                     "endColumn": 12,
-                    "endOffset": 105928
+                    "endOffset": 105917
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7411,9 +7411,9 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 105933,
+                    "startOffset": 105922,
                     "endColumn": 97,
-                    "endOffset": 106026
+                    "endOffset": 106015
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7430,9 +7430,9 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 106031,
+                    "startOffset": 106020,
                     "endColumn": 113,
-                    "endOffset": 106140
+                    "endOffset": 106129
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7449,9 +7449,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 106145,
+                    "startOffset": 106134,
                     "endColumn": 93,
-                    "endOffset": 106234
+                    "endOffset": 106223
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7468,10 +7468,10 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 106239,
+                    "startOffset": 106228,
                     "endLine": 1392,
                     "endColumn": 12,
-                    "endOffset": 106374
+                    "endOffset": 106363
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7489,10 +7489,10 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 106379,
+                    "startOffset": 106368,
                     "endLine": 1394,
                     "endColumn": 12,
-                    "endOffset": 106508
+                    "endOffset": 106497
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7510,9 +7510,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 106513,
+                    "startOffset": 106502,
                     "endColumn": 95,
-                    "endOffset": 106604
+                    "endOffset": 106593
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7529,9 +7529,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106609,
+                    "startOffset": 106598,
                     "endColumn": 111,
-                    "endOffset": 106716
+                    "endOffset": 106705
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7548,9 +7548,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 106721,
+                    "startOffset": 106710,
                     "endColumn": 99,
-                    "endOffset": 106816
+                    "endOffset": 106805
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7567,9 +7567,9 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106821,
+                    "startOffset": 106810,
                     "endColumn": 115,
-                    "endOffset": 106932
+                    "endOffset": 106921
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7586,9 +7586,9 @@
                 "to": {
                     "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 106937,
+                    "startOffset": 106926,
                     "endColumn": 95,
-                    "endOffset": 107028
+                    "endOffset": 107017
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7605,9 +7605,9 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 107033,
+                    "startOffset": 107022,
                     "endColumn": 111,
-                    "endOffset": 107140
+                    "endOffset": 107129
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7624,10 +7624,10 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 107145,
+                    "startOffset": 107134,
                     "endLine": 1402,
                     "endColumn": 12,
-                    "endOffset": 107280
+                    "endOffset": 107269
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7645,9 +7645,9 @@
                 "to": {
                     "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 107285,
+                    "startOffset": 107274,
                     "endColumn": 135,
-                    "endOffset": 107416
+                    "endOffset": 107405
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7664,10 +7664,10 @@
                 "to": {
                     "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 107421,
+                    "startOffset": 107410,
                     "endLine": 1405,
                     "endColumn": 12,
-                    "endOffset": 107580
+                    "endOffset": 107569
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7685,9 +7685,9 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 107585,
+                    "startOffset": 107574,
                     "endColumn": 129,
-                    "endOffset": 107710
+                    "endOffset": 107699
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7704,10 +7704,10 @@
                 "to": {
                     "startLine": 1407,
                     "startColumn": 4,
-                    "startOffset": 107715,
+                    "startOffset": 107704,
                     "endLine": 1408,
                     "endColumn": 12,
-                    "endOffset": 107868
+                    "endOffset": 107857
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7725,10 +7725,10 @@
                 "to": {
                     "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 107873,
+                    "startOffset": 107862,
                     "endLine": 1410,
                     "endColumn": 12,
-                    "endOffset": 108018
+                    "endOffset": 108007
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7746,9 +7746,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 108023,
+                    "startOffset": 108012,
                     "endColumn": 140,
-                    "endOffset": 108159
+                    "endOffset": 108148
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7765,10 +7765,10 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 108164,
+                    "startOffset": 108153,
                     "endLine": 1413,
                     "endColumn": 12,
-                    "endOffset": 108303
+                    "endOffset": 108292
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7786,9 +7786,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 108308,
+                    "startOffset": 108297,
                     "endColumn": 134,
-                    "endOffset": 108438
+                    "endOffset": 108427
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7805,9 +7805,9 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 108443,
+                    "startOffset": 108432,
                     "endColumn": 111,
-                    "endOffset": 108550
+                    "endOffset": 108539
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7824,9 +7824,9 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 108555,
+                    "startOffset": 108544,
                     "endColumn": 127,
-                    "endOffset": 108678
+                    "endOffset": 108667
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7843,10 +7843,10 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 108683,
+                    "startOffset": 108672,
                     "endLine": 1418,
                     "endColumn": 12,
-                    "endOffset": 108814
+                    "endOffset": 108803
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7864,10 +7864,10 @@
                 "to": {
                     "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 108819,
+                    "startOffset": 108808,
                     "endLine": 1420,
                     "endColumn": 12,
-                    "endOffset": 108956
+                    "endOffset": 108945
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7885,10 +7885,10 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 108961,
+                    "startOffset": 108950,
                     "endLine": 1422,
                     "endColumn": 12,
-                    "endOffset": 109098
+                    "endOffset": 109087
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7906,9 +7906,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 109103,
+                    "startOffset": 109092,
                     "endColumn": 111,
-                    "endOffset": 109210
+                    "endOffset": 109199
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7925,9 +7925,9 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 109215,
+                    "startOffset": 109204,
                     "endColumn": 139,
-                    "endOffset": 109350
+                    "endOffset": 109339
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7944,9 +7944,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 109355,
+                    "startOffset": 109344,
                     "endColumn": 67,
-                    "endOffset": 109418
+                    "endOffset": 109407
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7963,9 +7963,9 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 109423,
+                    "startOffset": 109412,
                     "endColumn": 72,
-                    "endOffset": 109491
+                    "endOffset": 109480
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -7982,9 +7982,9 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 109496,
+                    "startOffset": 109485,
                     "endColumn": 73,
-                    "endOffset": 109565
+                    "endOffset": 109554
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8001,9 +8001,9 @@
                 "to": {
                     "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 109570,
+                    "startOffset": 109559,
                     "endColumn": 72,
-                    "endOffset": 109638
+                    "endOffset": 109627
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8020,9 +8020,9 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 109643,
+                    "startOffset": 109632,
                     "endColumn": 73,
-                    "endOffset": 109712
+                    "endOffset": 109701
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8039,10 +8039,10 @@
                 "to": {
                     "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 109717,
+                    "startOffset": 109706,
                     "endLine": 1431,
                     "endColumn": 12,
-                    "endOffset": 109858
+                    "endOffset": 109847
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8060,10 +8060,10 @@
                 "to": {
                     "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 109863,
+                    "startOffset": 109852,
                     "endLine": 1433,
                     "endColumn": 12,
-                    "endOffset": 110002
+                    "endOffset": 109991
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8081,10 +8081,10 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 110007,
+                    "startOffset": 109996,
                     "endLine": 1435,
                     "endColumn": 12,
-                    "endOffset": 110140
+                    "endOffset": 110129
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8102,9 +8102,9 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 110145,
+                    "startOffset": 110134,
                     "endColumn": 25,
-                    "endOffset": 110166
+                    "endOffset": 110155
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8121,9 +8121,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 110171,
+                    "startOffset": 110160,
                     "endColumn": 65,
-                    "endOffset": 110232
+                    "endOffset": 110221
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8140,9 +8140,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 110237,
+                    "startOffset": 110226,
                     "endColumn": 89,
-                    "endOffset": 110322
+                    "endOffset": 110311
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8159,9 +8159,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 110327,
+                    "startOffset": 110316,
                     "endColumn": 79,
-                    "endOffset": 110402
+                    "endOffset": 110391
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8178,9 +8178,9 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 110407,
+                    "startOffset": 110396,
                     "endColumn": 91,
-                    "endOffset": 110494
+                    "endOffset": 110483
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8197,9 +8197,9 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 110499,
+                    "startOffset": 110488,
                     "endColumn": 97,
-                    "endOffset": 110592
+                    "endOffset": 110581
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8216,10 +8216,10 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 110597,
+                    "startOffset": 110586,
                     "endLine": 1443,
                     "endColumn": 12,
-                    "endOffset": 110702
+                    "endOffset": 110691
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8237,9 +8237,9 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 110707,
+                    "startOffset": 110696,
                     "endColumn": 77,
-                    "endOffset": 110780
+                    "endOffset": 110769
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8256,9 +8256,9 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 110785,
+                    "startOffset": 110774,
                     "endColumn": 105,
-                    "endOffset": 110886
+                    "endOffset": 110875
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8275,9 +8275,9 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 110891,
+                    "startOffset": 110880,
                     "endColumn": 91,
-                    "endOffset": 110978
+                    "endOffset": 110967
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8294,9 +8294,9 @@
                 "to": {
                     "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 110983,
+                    "startOffset": 110972,
                     "endColumn": 103,
-                    "endOffset": 111082
+                    "endOffset": 111071
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8313,9 +8313,9 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 111087,
+                    "startOffset": 111076,
                     "endColumn": 109,
-                    "endOffset": 111192
+                    "endOffset": 111181
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8332,10 +8332,10 @@
                 "to": {
                     "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 111197,
+                    "startOffset": 111186,
                     "endLine": 1450,
                     "endColumn": 12,
-                    "endOffset": 111314
+                    "endOffset": 111303
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8353,10 +8353,10 @@
                 "to": {
                     "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 111319,
+                    "startOffset": 111308,
                     "endLine": 1454,
                     "endColumn": 12,
-                    "endOffset": 111477
+                    "endOffset": 111466
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8374,10 +8374,10 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 111482,
+                    "startOffset": 111471,
                     "endLine": 1458,
                     "endColumn": 12,
-                    "endOffset": 111634
+                    "endOffset": 111623
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8395,9 +8395,9 @@
                 "to": {
                     "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 111639,
+                    "startOffset": 111628,
                     "endColumn": 34,
-                    "endOffset": 111669
+                    "endOffset": 111658
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8414,10 +8414,10 @@
                 "to": {
                     "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 111674,
+                    "startOffset": 111663,
                     "endLine": 1466,
                     "endColumn": 10,
-                    "endOffset": 112087
+                    "endOffset": 112076
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8435,10 +8435,10 @@
                 "to": {
                     "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 112092,
+                    "startOffset": 112081,
                     "endLine": 1473,
                     "endColumn": 10,
-                    "endOffset": 112465
+                    "endOffset": 112454
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8456,10 +8456,10 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 112470,
+                    "startOffset": 112459,
                     "endLine": 1476,
                     "endColumn": 10,
-                    "endOffset": 112642
+                    "endOffset": 112631
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8477,10 +8477,10 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 112647,
+                    "startOffset": 112636,
                     "endLine": 1479,
                     "endColumn": 10,
-                    "endOffset": 112821
+                    "endOffset": 112810
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8498,10 +8498,10 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 112826,
+                    "startOffset": 112815,
                     "endLine": 1482,
                     "endColumn": 12,
-                    "endOffset": 113004
+                    "endOffset": 112993
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8519,10 +8519,10 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 113009,
+                    "startOffset": 112998,
                     "endLine": 1488,
                     "endColumn": 12,
-                    "endOffset": 113369
+                    "endOffset": 113358
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.48.4/res/values/values.xml",
@@ -8540,9 +8540,9 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 113374,
+                    "startOffset": 113363,
                     "endColumn": 79,
-                    "endOffset": 113449
+                    "endOffset": 113438
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8559,9 +8559,9 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 113454,
+                    "startOffset": 113443,
                     "endColumn": 99,
-                    "endOffset": 113549
+                    "endOffset": 113538
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8578,9 +8578,9 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 113554,
+                    "startOffset": 113543,
                     "endColumn": 89,
-                    "endOffset": 113639
+                    "endOffset": 113628
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8597,9 +8597,9 @@
                 "to": {
                     "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 113644,
+                    "startOffset": 113633,
                     "endColumn": 109,
-                    "endOffset": 113749
+                    "endOffset": 113738
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8616,9 +8616,9 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 113754,
+                    "startOffset": 113743,
                     "endColumn": 91,
-                    "endOffset": 113841
+                    "endOffset": 113830
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8635,10 +8635,10 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 113846,
+                    "startOffset": 113835,
                     "endLine": 1495,
                     "endColumn": 12,
-                    "endOffset": 113941
+                    "endOffset": 113930
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8656,10 +8656,10 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 113946,
+                    "startOffset": 113935,
                     "endLine": 1497,
                     "endColumn": 12,
-                    "endOffset": 114053
+                    "endOffset": 114042
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8677,10 +8677,10 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 114058,
+                    "startOffset": 114047,
                     "endLine": 1499,
                     "endColumn": 12,
-                    "endOffset": 114167
+                    "endOffset": 114156
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8698,10 +8698,10 @@
                 "to": {
                     "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 114172,
+                    "startOffset": 114161,
                     "endLine": 1501,
                     "endColumn": 12,
-                    "endOffset": 114283
+                    "endOffset": 114272
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8719,10 +8719,10 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 114288,
+                    "startOffset": 114277,
                     "endLine": 1503,
                     "endColumn": 12,
-                    "endOffset": 114399
+                    "endOffset": 114388
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8740,9 +8740,9 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 114404,
+                    "startOffset": 114393,
                     "endColumn": 93,
-                    "endOffset": 114493
+                    "endOffset": 114482
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8759,9 +8759,9 @@
                 "to": {
                     "startLine": 1505,
                     "startColumn": 4,
-                    "startOffset": 114498,
+                    "startOffset": 114487,
                     "endColumn": 113,
-                    "endOffset": 114607
+                    "endOffset": 114596
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8778,9 +8778,9 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 114612,
+                    "startOffset": 114601,
                     "endColumn": 117,
-                    "endOffset": 114725
+                    "endOffset": 114714
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8797,10 +8797,10 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 114730,
+                    "startOffset": 114719,
                     "endLine": 1508,
                     "endColumn": 12,
-                    "endOffset": 114827
+                    "endOffset": 114816
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8818,10 +8818,10 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 114832,
+                    "startOffset": 114821,
                     "endLine": 1510,
                     "endColumn": 12,
-                    "endOffset": 114947
+                    "endOffset": 114936
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8839,10 +8839,10 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 114952,
+                    "startOffset": 114941,
                     "endLine": 1512,
                     "endColumn": 12,
-                    "endOffset": 115069
+                    "endOffset": 115058
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8860,9 +8860,9 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 115074,
+                    "startOffset": 115063,
                     "endColumn": 81,
-                    "endOffset": 115151
+                    "endOffset": 115140
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8879,9 +8879,9 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 115156,
+                    "startOffset": 115145,
                     "endColumn": 103,
-                    "endOffset": 115255
+                    "endOffset": 115244
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8898,9 +8898,9 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 115260,
+                    "startOffset": 115249,
                     "endColumn": 119,
-                    "endOffset": 115375
+                    "endOffset": 115364
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8917,9 +8917,9 @@
                 "to": {
                     "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 115380,
+                    "startOffset": 115369,
                     "endColumn": 125,
-                    "endOffset": 115501
+                    "endOffset": 115490
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8936,9 +8936,9 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 115506,
+                    "startOffset": 115495,
                     "endColumn": 97,
-                    "endOffset": 115599
+                    "endOffset": 115588
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8955,9 +8955,9 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 115604,
+                    "startOffset": 115593,
                     "endColumn": 93,
-                    "endOffset": 115693
+                    "endOffset": 115682
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8974,9 +8974,9 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 115698,
+                    "startOffset": 115687,
                     "endColumn": 87,
-                    "endOffset": 115781
+                    "endOffset": 115770
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -8993,9 +8993,9 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 115786,
+                    "startOffset": 115775,
                     "endColumn": 111,
-                    "endOffset": 115893
+                    "endOffset": 115882
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9012,9 +9012,9 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 115898,
+                    "startOffset": 115887,
                     "endColumn": 115,
-                    "endOffset": 116009
+                    "endOffset": 115998
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9031,9 +9031,9 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 116014,
+                    "startOffset": 116003,
                     "endColumn": 121,
-                    "endOffset": 116131
+                    "endOffset": 116120
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9050,9 +9050,9 @@
                 "to": {
                     "startLine": 1523,
                     "startColumn": 4,
-                    "startOffset": 116136,
+                    "startOffset": 116125,
                     "endColumn": 111,
-                    "endOffset": 116243
+                    "endOffset": 116232
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9069,10 +9069,10 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 116248,
+                    "startOffset": 116237,
                     "endLine": 1526,
                     "endColumn": 12,
-                    "endOffset": 116418
+                    "endOffset": 116407
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9090,9 +9090,9 @@
                 "to": {
                     "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 116423,
+                    "startOffset": 116412,
                     "endColumn": 115,
-                    "endOffset": 116534
+                    "endOffset": 116523
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9109,9 +9109,9 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 116539,
+                    "startOffset": 116528,
                     "endColumn": 85,
-                    "endOffset": 116620
+                    "endOffset": 116609
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9128,10 +9128,10 @@
                 "to": {
                     "startLine": 1529,
                     "startColumn": 4,
-                    "startOffset": 116625,
+                    "startOffset": 116614,
                     "endLine": 1530,
                     "endColumn": 12,
-                    "endOffset": 116732
+                    "endOffset": 116721
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9149,10 +9149,10 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 116737,
+                    "startOffset": 116726,
                     "endLine": 1532,
                     "endColumn": 12,
-                    "endOffset": 116856
+                    "endOffset": 116845
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9170,9 +9170,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 116861,
+                    "startOffset": 116850,
                     "endColumn": 66,
-                    "endOffset": 116923
+                    "endOffset": 116912
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9189,10 +9189,10 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 116928,
+                    "startOffset": 116917,
                     "endLine": 1535,
                     "endColumn": 12,
-                    "endOffset": 117049
+                    "endOffset": 117038
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9210,9 +9210,9 @@
                 "to": {
                     "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 117054,
+                    "startOffset": 117043,
                     "endColumn": 67,
-                    "endOffset": 117117
+                    "endOffset": 117106
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9229,10 +9229,10 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 117122,
+                    "startOffset": 117111,
                     "endLine": 1538,
                     "endColumn": 12,
-                    "endOffset": 117245
+                    "endOffset": 117234
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9250,10 +9250,10 @@
                 "to": {
                     "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 117250,
+                    "startOffset": 117239,
                     "endLine": 1540,
                     "endColumn": 12,
-                    "endOffset": 117389
+                    "endOffset": 117378
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9271,10 +9271,10 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 117394,
+                    "startOffset": 117383,
                     "endLine": 1542,
                     "endColumn": 12,
-                    "endOffset": 117517
+                    "endOffset": 117506
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9292,9 +9292,9 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 117522,
+                    "startOffset": 117511,
                     "endColumn": 68,
-                    "endOffset": 117586
+                    "endOffset": 117575
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9311,9 +9311,9 @@
                 "to": {
                     "startLine": 1544,
                     "startColumn": 4,
-                    "startOffset": 117591,
+                    "startOffset": 117580,
                     "endColumn": 94,
-                    "endOffset": 117681
+                    "endOffset": 117670
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9330,9 +9330,9 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 117686,
+                    "startOffset": 117675,
                     "endColumn": 114,
-                    "endOffset": 117796
+                    "endOffset": 117785
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9349,9 +9349,9 @@
                 "to": {
                     "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 117801,
+                    "startOffset": 117790,
                     "endColumn": 112,
-                    "endOffset": 117909
+                    "endOffset": 117898
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9368,9 +9368,9 @@
                 "to": {
                     "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 117914,
+                    "startOffset": 117903,
                     "endColumn": 98,
-                    "endOffset": 118008
+                    "endOffset": 117997
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9387,9 +9387,9 @@
                 "to": {
                     "startLine": 1548,
                     "startColumn": 4,
-                    "startOffset": 118013,
+                    "startOffset": 118002,
                     "endColumn": 108,
-                    "endOffset": 118117
+                    "endOffset": 118106
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9406,9 +9406,9 @@
                 "to": {
                     "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 118122,
+                    "startOffset": 118111,
                     "endColumn": 110,
-                    "endOffset": 118228
+                    "endOffset": 118217
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9425,9 +9425,9 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 118233,
+                    "startOffset": 118222,
                     "endColumn": 110,
-                    "endOffset": 118339
+                    "endOffset": 118328
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9444,9 +9444,9 @@
                 "to": {
                     "startLine": 1551,
                     "startColumn": 4,
-                    "startOffset": 118344,
+                    "startOffset": 118333,
                     "endColumn": 100,
-                    "endOffset": 118440
+                    "endOffset": 118429
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9463,9 +9463,9 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 118445,
+                    "startOffset": 118434,
                     "endColumn": 104,
-                    "endOffset": 118545
+                    "endOffset": 118534
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9482,10 +9482,10 @@
                 "to": {
                     "startLine": 1553,
                     "startColumn": 4,
-                    "startOffset": 118550,
+                    "startOffset": 118539,
                     "endLine": 1554,
                     "endColumn": 12,
-                    "endOffset": 118657
+                    "endOffset": 118646
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9503,10 +9503,10 @@
                 "to": {
                     "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 118662,
+                    "startOffset": 118651,
                     "endLine": 1556,
                     "endColumn": 12,
-                    "endOffset": 118787
+                    "endOffset": 118776
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9524,9 +9524,9 @@
                 "to": {
                     "startLine": 1557,
                     "startColumn": 4,
-                    "startOffset": 118792,
+                    "startOffset": 118781,
                     "endColumn": 90,
-                    "endOffset": 118878
+                    "endOffset": 118867
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9543,9 +9543,9 @@
                 "to": {
                     "startLine": 1558,
                     "startColumn": 4,
-                    "startOffset": 118883,
+                    "startOffset": 118872,
                     "endColumn": 122,
-                    "endOffset": 119001
+                    "endOffset": 118990
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9562,10 +9562,10 @@
                 "to": {
                     "startLine": 1559,
                     "startColumn": 4,
-                    "startOffset": 119006,
+                    "startOffset": 118995,
                     "endLine": 1560,
                     "endColumn": 12,
-                    "endOffset": 119113
+                    "endOffset": 119102
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9583,9 +9583,9 @@
                 "to": {
                     "startLine": 1561,
                     "startColumn": 4,
-                    "startOffset": 119118,
+                    "startOffset": 119107,
                     "endColumn": 85,
-                    "endOffset": 119199
+                    "endOffset": 119188
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9602,9 +9602,9 @@
                 "to": {
                     "startLine": 1562,
                     "startColumn": 4,
-                    "startOffset": 119204,
+                    "startOffset": 119193,
                     "endColumn": 103,
-                    "endOffset": 119303
+                    "endOffset": 119292
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9621,10 +9621,10 @@
                 "to": {
                     "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 119308,
+                    "startOffset": 119297,
                     "endLine": 1564,
                     "endColumn": 12,
-                    "endOffset": 119411
+                    "endOffset": 119400
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9642,10 +9642,10 @@
                 "to": {
                     "startLine": 1565,
                     "startColumn": 4,
-                    "startOffset": 119416,
+                    "startOffset": 119405,
                     "endLine": 1566,
                     "endColumn": 12,
-                    "endOffset": 119511
+                    "endOffset": 119500
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9663,10 +9663,10 @@
                 "to": {
                     "startLine": 1567,
                     "startColumn": 4,
-                    "startOffset": 119516,
+                    "startOffset": 119505,
                     "endLine": 1568,
                     "endColumn": 12,
-                    "endOffset": 119629
+                    "endOffset": 119618
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9684,10 +9684,10 @@
                 "to": {
                     "startLine": 1569,
                     "startColumn": 4,
-                    "startOffset": 119634,
+                    "startOffset": 119623,
                     "endLine": 1570,
                     "endColumn": 12,
-                    "endOffset": 119733
+                    "endOffset": 119722
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9705,10 +9705,10 @@
                 "to": {
                     "startLine": 1571,
                     "startColumn": 4,
-                    "startOffset": 119738,
+                    "startOffset": 119727,
                     "endLine": 1572,
                     "endColumn": 12,
-                    "endOffset": 119837
+                    "endOffset": 119826
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9726,10 +9726,10 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 119842,
+                    "startOffset": 119831,
                     "endLine": 1574,
                     "endColumn": 12,
-                    "endOffset": 119963
+                    "endOffset": 119952
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9747,9 +9747,9 @@
                 "to": {
                     "startLine": 1575,
                     "startColumn": 4,
-                    "startOffset": 119968,
+                    "startOffset": 119957,
                     "endColumn": 87,
-                    "endOffset": 120051
+                    "endOffset": 120040
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9766,9 +9766,9 @@
                 "to": {
                     "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 120056,
+                    "startOffset": 120045,
                     "endColumn": 89,
-                    "endOffset": 120141
+                    "endOffset": 120130
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9785,9 +9785,9 @@
                 "to": {
                     "startLine": 1577,
                     "startColumn": 4,
-                    "startOffset": 120146,
+                    "startOffset": 120135,
                     "endColumn": 109,
-                    "endOffset": 120251
+                    "endOffset": 120240
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9804,9 +9804,9 @@
                 "to": {
                     "startLine": 1578,
                     "startColumn": 4,
-                    "startOffset": 120256,
+                    "startOffset": 120245,
                     "endColumn": 83,
-                    "endOffset": 120335
+                    "endOffset": 120324
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9823,9 +9823,9 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 120340,
+                    "startOffset": 120329,
                     "endColumn": 53,
-                    "endOffset": 120389
+                    "endOffset": 120378
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9842,9 +9842,9 @@
                 "to": {
                     "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 120394,
+                    "startOffset": 120383,
                     "endColumn": 63,
-                    "endOffset": 120453
+                    "endOffset": 120442
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9861,9 +9861,9 @@
                 "to": {
                     "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 120458,
+                    "startOffset": 120447,
                     "endColumn": 105,
-                    "endOffset": 120559
+                    "endOffset": 120548
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9880,9 +9880,9 @@
                 "to": {
                     "startLine": 1582,
                     "startColumn": 4,
-                    "startOffset": 120564,
+                    "startOffset": 120553,
                     "endColumn": 109,
-                    "endOffset": 120669
+                    "endOffset": 120658
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9899,9 +9899,9 @@
                 "to": {
                     "startLine": 1583,
                     "startColumn": 4,
-                    "startOffset": 120674,
+                    "startOffset": 120663,
                     "endColumn": 83,
-                    "endOffset": 120753
+                    "endOffset": 120742
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",
@@ -9918,9 +9918,9 @@
                 "to": {
                     "startLine": 1584,
                     "startColumn": 4,
-                    "startOffset": 120758,
+                    "startOffset": 120747,
                     "endColumn": 119,
-                    "endOffset": 120873
+                    "endOffset": 120862
                 },
                 "from": {
                     "file": "/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml",

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Oct 09 21:38:28 IST 2017
+#Tue Oct 10 01:12:47 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_material.xml
 14.set=ANDROID_RESOURCE
@@ -288,7 +288,7 @@
 131.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
 181.set=ANDROID_RESOURCE
 44.set=ANDROID_RESOURCE
-260.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/node_modules_reactnativeelements_src_rating_images_bell.png
+260.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
 183.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
 148.set=ANDROID_RESOURCE
 90.set=ANDROID_RESOURCE
@@ -383,7 +383,7 @@
 191.set=ANDROID_RESOURCE
 132.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/anim/slide_up.xml
 54.set=ANDROID_RESOURCE
-261.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+261.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/node_modules_reactnativeelements_src_rating_images_bell.png
 184.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
 158.set=ANDROID_RESOURCE
 211.set=ANDROID_RESOURCE
@@ -942,7 +942,7 @@ count=359
 267.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
 113.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
 29.set=ANDROID_RESOURCE
-90.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/node_modules_reactnavigation_src_views_assets_backicon.png
+90.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
 242.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
 165.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
 273.base=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_
@@ -1032,7 +1032,7 @@ count=359
 176.set=ANDROID_RESOURCE
 114.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_light.xml
 39.set=ANDROID_RESOURCE
-91.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+91.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/node_modules_reactnavigation_src_views_assets_backicon.png
 320.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
 243.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_dialog_title_material.xml
 166.file=/home/whocares/Github/TEDx-ReactNative/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
