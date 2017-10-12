@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableWithoutFeedback, Linking } from 'react-native';
 import Collapsible from 'react-native-collapsible';
-
+import ImageLoad from 'react-native-image-placeholder';
 
 const styles = StyleSheet.create({
   container: {
@@ -41,13 +41,19 @@ const styles = StyleSheet.create({
   photo: {
     height: 90,
     width: 90,
+    
+  },
+  placeholderImage: {
+    height: 90,
+    width: 90,
     borderRadius: 45,
+    backgroundColor:'#ffffff'
   },
   links: {
     height: 22,
     width: 22,
     marginLeft: 12
-  }
+  }, 
 });
 
 export default class Row extends React.Component {
@@ -65,12 +71,17 @@ export default class Row extends React.Component {
   }
 
   render() {
-
     return (
       <View style={styles.container} onPress={() => { this.setState = { isCollapsed: false } }}>
         <View style={{ flexDirection: 'row'}}>
           <View style={styles.innerContainer1}>
-            <Image source={{uri: this.props.profile_pic}} style={styles.photo} />
+    <ImageLoad
+     borderRadius={45}
+      loadingStyle={{ size: 'small', color: 'red' }}
+      placeholderStyle={styles.placeholderImage}
+      placeholderSource={require('./../images/placeholder.png')}
+      source={{uri: this.props.profile_pic}} 
+      style={styles.photo}/>
           </View>
           <View style={styles.innerContainer2}>
             <View>

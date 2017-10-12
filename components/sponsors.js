@@ -41,6 +41,7 @@ export default class Sponsors extends React.Component {
         return (
         <View style={styles.container}>
         <ListView
+        style={{paddingBottom:130}}
           dataSource={this.state.dataSource}
           renderRow={(rowData) => <Row {...rowData}/>}
         />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableWithoutFeedback, Linking } from 'react-native';
+import ImageLoad from 'react-native-image-placeholder';
 
 const styles = StyleSheet.create({
     container: {
@@ -12,7 +13,7 @@ const styles = StyleSheet.create({
         borderRadius: 2,
         borderWidth: 1.33,
         borderColor: '#e5e5e5',
-        backgroundColor: '#fff'
+        backgroundColor: '#fff',
     },
     innerContainer1: {
         flexDirection: 'row',
@@ -37,6 +38,13 @@ const styles = StyleSheet.create({
         width: 100,
         borderRadius: 50,
     },
+    placeholderImage:
+    {
+        height: 100,
+        width: 100,
+        borderRadius: 50,
+        backgroundColor: '#ffffff',
+    },
     links: {
         height: 30,
         width: 30,
@@ -52,7 +60,15 @@ const Row = (data) => (
             </Text>
         </View>
         <View style={styles.innerContainer2}>
-            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(data.link)}`)}><Image source={{uri: data.image}} style={styles.photo} /></TouchableWithoutFeedback>
+            <TouchableWithoutFeedback onPress={() => Linking.openURL(`${(data.link)}`)}>
+            <ImageLoad
+                 borderRadius={45}
+      loadingStyle={{ size: 'small', color: 'red' }}
+      placeholderStyle={styles.placeholderImage}
+      placeholderSource={require('./../images/placeholder.png')}
+      source={{uri: data.image}} 
+      style={styles.photo}/>
+            </TouchableWithoutFeedback>
         </View>
     </View>
 );

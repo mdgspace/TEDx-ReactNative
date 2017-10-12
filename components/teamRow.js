@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableWithoutFeedback, Linking } from 'react-native';
+import ImageLoad from 'react-native-image-placeholder';
 
 const styles = StyleSheet.create({
   container: {
@@ -37,17 +38,30 @@ const styles = StyleSheet.create({
     width: 100,
     borderRadius: 50,
   },
+  placeholderImage: {
+    height: 100,
+    width: 100,
+    borderRadius: 50,
+    backgroundColor: '#ffffff',
+  },
   links: {
     height: 30,
     width: 30,
     marginLeft: 12
-  }
+  },
+
 });
 
 const Row = (data) => (
   <View style={styles.container}>
     <View style={styles.innerContainer1}>
-      <Image source={{uri: data.profile_pic}} style={styles.photo} />
+    <ImageLoad
+      borderRadius={50}
+      loadingStyle={{ size: 'small', color: 'red' }}
+      placeholderStyle={styles.placeholderImage}
+      placeholderSource={require('./../images/placeholder.png')}
+      source={{uri: data.profile_pic}} 
+      style={styles.photo}/>
     </View>
     <View style={styles.innerContainer2}>
       <Text style={styles.name}>
