@@ -8,24 +8,32 @@ static navigationOptions = {header: null };
         return (
             <View style={styles.container}>
                 <View style={styles.row}>
+                    <TouchableWithoutFeedback onPress={() => navigate('sponsors')}>
+                    <View style={styles.innerRow}>
                     <View style={styles.iconholder}>
-                       <TouchableWithoutFeedback onPress={() => navigate('sponsors')}><Image source={require('./../images/sponsors.png')} style={styles.icons} onPress={() => navigate('sponsors')} /></TouchableWithoutFeedback>
+                        <Image source={require('./../images/sponsors.png')} style={styles.icons} />
                     </View>
                     <View style={styles.textholderview}>
-                        <Text style={styles.text} onPress={() => navigate('sponsors')}>
+                        <Text style={styles.text}>
                             Sponsors
                         </Text>
                     </View>
+                    </View>
+                    </TouchableWithoutFeedback>
                 </View>
                 <View style={styles.row}>
+                    <TouchableWithoutFeedback onPress={() => navigate('team')}>
+                    <View style={styles.innerRow}>
                     <View style={styles.iconholder}>
-                        <TouchableWithoutFeedback onPress={() => navigate('team')}><Image source={require('./../images/team.png')} style={styles.icons} onPress={() => navigate('team')}/></TouchableWithoutFeedback>
+                        <Image source={require('./../images/team.png')} style={styles.icons} />
                     </View>
                     <View style={styles.textholderview}>
-                        <Text style={styles.text} onPress={() => navigate('team')}>
+                        <Text style={styles.text}> 
                             Team
                         </Text>
                     </View>
+                    </View>
+                    </TouchableWithoutFeedback>
                 </View>
                 <View style={styles.follow}>
                     <View style={{ backgroundColor: '#fff', flex: 0.3, flexDirection: 'row', alignSelf: 'flex-start', marginLeft: 15 }}>
@@ -60,13 +68,19 @@ const styles = StyleSheet.create({
         margin: 20
     },
     row: {
-        flex: 0.5,
+        flex: 0.45,
         flexDirection: 'row',
         backgroundColor: '#fff',
         margin: 10,
         marginTop: 0,
         borderBottomWidth: 0.5,
         borderBottomColor: 'rgba(0,0,0,0.3)'
+    },
+    innerRow: {
+        flex: 1,
+        flexDirection: 'row',
+        backgroundColor: '#fff',
+        margin: 0,
     },
     icons: {
         height: 36,

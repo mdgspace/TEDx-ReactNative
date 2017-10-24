@@ -41,6 +41,7 @@ export default class Sponsors extends React.Component {
         return (
         <View style={styles.container}>
         <ListView
+        style={{paddingBottom:130}}
           dataSource={this.state.dataSource}
           renderRow={(rowData) => <Row {...rowData}/>}
         />
@@ -56,5 +57,6 @@ const styles = StyleSheet.create({
     backgroundColor:'rgba(0,0,0,0.03)',
     alignItems: 'center',
     justifyContent: 'center',
+    paddingBottom:56,
   },
 });

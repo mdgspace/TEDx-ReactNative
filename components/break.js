@@ -92,7 +92,6 @@ export default class Break extends React.Component {
   }  
   
   render() {
-   Moment.locale('in');
       return(
 <View style = {styles.container}>
 	<View style={styles.startMarker}/>	

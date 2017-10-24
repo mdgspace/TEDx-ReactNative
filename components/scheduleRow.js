@@ -2,6 +2,7 @@
 import { View, Text, StyleSheet, Image } from 'react-native';
 import Collapsible from 'react-native-collapsible';
 import Moment from 'moment';
+import ImageLoad from 'react-native-image-placeholder';
 
 var styles = StyleSheet.create(
   {
@@ -69,6 +70,12 @@ var styles = StyleSheet.create(
     {
       height: 27,
       width: 27,
+    },
+    placeholderImage:
+    {
+      height: 27,
+      width: 27,
+      backgroundColor: '#ffffff',
     },
 
     topic:
@@ -138,7 +145,12 @@ export default class Row extends React.Component {
             <Text style={styles.topic}>{this.props.title}</Text>
             <View style={{flexDirection: 'row', alignItems: 'flex-end'}}>
               <View style={styles.speaker}>
-                <Image source={{uri : this.props.speaker.profile_pic}} style={styles.speakerImage} />
+              <ImageLoad
+      loadingStyle={{ size: 'small', color: 'red' }}
+      placeholderStyle={styles.placeholderImage}
+      placeholderSource={require('./../images/placeholder.png')}
+      source={{uri: this.props.speaker.profile_pic}} 
+      style={styles.speakerImage}/>
                 <View style={{ flexDirection: 'column', marginLeft: 10, justifyContent: 'center' }}>
                   <Text style={styles.speakerName}>{this.props.speaker.name}</Text>
                   <Text style={styles.speakerDesignation}>{this.props.speaker.designation}</Text>
